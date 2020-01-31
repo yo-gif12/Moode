@@ -1,5 +1,5 @@
 # Moode
-__*Your Mood, Your Style, Your Art*__
+__*Your Style, Your Art, Your Mood*__
 
 ## A two weeks project
 
