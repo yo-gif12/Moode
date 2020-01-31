@@ -1,10 +1,9 @@
 # Moode
+__*Your Mood, Your Style, Your Art*__
 
-# Projet fin de 1er semestre 
+## A two weeks project
 
-Du 27 janvier au 7 février 2020
-
-# Les membres de l'équipe
+## Team members
 
 - Camille CERIN
 
