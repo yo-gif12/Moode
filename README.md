@@ -1,10 +1,9 @@
 # Moode
+__*Your Style, Your Art, Your Mood*__
 
-# Projet fin de 1er semestre 
+## A two weeks project
 
-Du 27 janvier au 7 février 2020
-
-# Les membres de l'équipe
+## Team members
 
 - Camille CERIN
 
@@ -16,4 +15,7 @@ Du 27 janvier au 7 février 2020
 
 - Emmy PETEYTAS
 
+- Cristiana Monteiro
 
+## Our Figma 
+https://www.figma.com/file/UwVvKIVekA0lcPJNTwsl49/Foulard?node-id=0%3A1
