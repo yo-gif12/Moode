@@ -1,6 +1,6 @@
 body {
   font-family: "helvetica Neue";
-
+  
   .for__her--p {
     margin-top: 16px;
     font-size: 20px;
@@ -32,7 +32,7 @@ body {
     color: white;
   }
 
-  .foulard {
+  .foulard__image {
     margin-top: 24px;
     height: 328px;
     width: 328px;
@@ -47,10 +47,8 @@ body {
     text-align: center;
     text-transform: uppercase;
     color: $black-typo;
-    .other__color {
+    .title__color2 {
       color: #d4b47b;
-      margin-left: 1rem;
-      margin-right: 1rem;
     }
   }
   .subtitle {
@@ -60,10 +58,10 @@ body {
     margin-top: 8px;
     font-size: 14px;
     font-weight: bold;
-    margin-left: 1rem;
+    margin-left: 3rem;
     margin-right: 1rem;
   }
-  .z {
+  .subtitle__text {
     text-align: center;
     font-size: 16px;
     font-weight: 300;
@@ -72,7 +70,7 @@ body {
     margin-left: 1rem;
     margin-right: 1rem;
   }
-  .btn-z {
+  .btn-cta {
     width: 283px;
     background-color: black;
     color: white;
@@ -88,7 +86,7 @@ body {
 
   .for__her {
     text-align: center;
-    .pour {
+    .for__her__img {
       margin-top: 48px;
       width: 328px;
       height: 328px;
@@ -97,7 +95,7 @@ body {
       margin-right: auto;
     }
 
-    .btn {
+    .for__her__btn {
       font-size: 24px;
       text-transform: uppercase;
       width: 289px;
@@ -170,14 +168,15 @@ body {
   .a-1 {
     width: 100%;
     margin-top: 21px;
-  }
-  h2 {
+    margin-left: 1rem;
+    margin-right: 1rem;
     color: white;
     font-weight: bold;
     margin-top: 16px;
     text-align: center;
     font-size: 16px;
   }
+
   a__img {
     display: block;
     margin-left: auto;
@@ -240,5 +239,14 @@ body {
     .icon__youtube {
       margin-left: 18px;
     }
+  }
+  .footer1 {
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
   }
 }
