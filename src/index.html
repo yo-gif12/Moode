@@ -1,14 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="./scss/vendors/reset.css" />
-    <link rel="stylesheet" href="./scss/config/styles.scss">
+    <link rel="stylesheet" href="./scss/config/styles.scss" />
     <title>Moode</title>
-</head>
-<body>
-    <header class="header"><h1 class="title">hello</h1></header>
-</body>
+  </head>
+  <body>
+    <header class="header">
+      <img class="logo" src="./asset/img/logomoode.svg" alt="logo" />
+      <div class="navbar">
+        <a href="#home" class="active">Acceuil</a>
+        <a href="#news">design</a>
+        <a href="#contact">panier</a>
+        <a href="#compte">compte</a>
+      </div>
+    </header>
+    <img class="foulard" src="./asset/img/foulard.png" alt="foulard" />
+    <h1 class="title">
+      Nos carrés <span class="other__color">À votre image</span>
+    </h1>
+    <h2 class="subtitle">Your style, your art, your moode</h2>
+    <p class="z">
+      MOODE présente sa collection de carrés personnalisable pour elle et pour
+      lui, caractérisé par des designs uniques, faits à la main et semés par nos
+      artisans français, produits 100% naturel à base de soie, chanvre et / ou
+      lin cultivé en france
+    </p>
+    <button class="btn-z">Découvrir les collections</button>
+
+    <div class="for__her">
+      <img src="./asset/img/Photoelle.jpg" alt="pourelle" class="pour" />
+      <p class="for__her--p">Personnalise ton style</p>
+      <p class="for__her__p">Laisser parler votre inspiration</p>
+      <button class="btn">pour elle</button>
+    </div>
+    <div class="for__him">
+      <img src="./asset/img/PhotoHomme.jpg" alt="pourlui" class="pour" />
+      <p class="for__her--p">Personnalise ton style</p>
+      <p class="for__her__p">Laisser parler votre inspiration</p>
+      <button class="btn">pour lui</button>
+    </div>
+    <div class="articles">
+      <div class="articles__1">
+        <img src="./asset/img/Rectangle24.png" alt="articles" />
+        <p class="articles__1--perso">personnalisable</p>
+        <p class="articles__1--foulard">Foulard Moonlight</p>
+        <p class="articles__1--prix">250€</p>
+      </div>
+      <div class="articles__1">
+        <img src="./asset/img/Rectangle 24.png" alt="articles" />
+        <p class="articles__1--perso">personnalisable</p>
+        <p class="articles__1--foulard">Foulard Moonlight</p>
+        <p class="articles__1--prix">250€</p>
+      </div>
+      <div class="articles__1">
+        <img src="./asset/img/Rectangle 24.png" alt="articles" />
+        <p class="articles__1--perso">personnalisable</p>
+        <p class="articles__1--foulard">Foulard Moonlight</p>
+        <p class="articles__1--prix">250€</p>
+      </div>
+      <div class="articles__1">
+        <img src="./asset/img/Rectangle 24.png" alt="articles" />
+        <p class="articles__1--perso">personnalisable</p>
+        <p class="articles__1--foulard">Foulard Moonlight</p>
+        <p class="articles__1--prix">250€</p>
+      </div>
+    </div>
+    <div class="eco">
+      <h2 class="a-1">AVANTAGES MOODE</h2>
+      <div class="d"></div>
+      <div class="a">
+        <img src="./asset/img/carte.svg" alt="q" class="er" />
+        <p class="eco__made">made in france</p>
+        <p class="eco__made--in">Production et fabrication 100% française</p>
+      </div>
+      <div class="a">
+        <img src="./asset/img/Artisan.svg" alt="q" class="er" />
+        <p class="eco__made">Savoir-faire</p>
+        <p class="eco__made--in">Savoir-faire artisanale</p>
+      </div>
+      <div class="a">
+        <img src="./asset/img/Recyclage.svg" alt="q" class="er" />
+        <p class="eco__made">impact</p>
+        <p class="eco__made--in">
+          Matériaux recyclables et réspectueux de l’environnement
+        </p>
+      </div>
+      <div class="a">
+        <img src="./img/Vector.svg" alt="q" class="er" />
+        <p class="eco__made">L’art d’offrir</p>
+        <p class="eco__made--in">
+          Votre commande sublimée dans un coffret Moode iconique
+        </p>
+      </div>
+      <div class="a">
+        <img src="./asset/img/l.svg" alt="q" class="er" />
+        <p class="eco__made">Livraison et retours</p>
+        <p class="eco__made--in">
+          Livraison standard et retours offerts pour toute commande
+        </p>
+      </div>
+      <div class="newsletter">
+          <p class="pp">Rejoigner notre newsletter</p>
+          <input type="email" class="email"
+       pattern=".+@globex.com" size="35" required placeholder="Saisissez votre adresse e-mail" >
+       <svg class="icon__facebook" width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M7.50016 1.16675H5.75016C4.97661 1.16675 4.23475 1.47404 3.68777 2.02102C3.14079 2.568 2.8335 3.30987 2.8335 4.08341V5.83342H1.0835V8.16675H2.8335V12.8334H5.16683V8.16675H6.91683L7.50016 5.83342H5.16683V4.08341C5.16683 3.92871 5.22829 3.78033 5.33768 3.67094C5.44708 3.56154 5.59545 3.50008 5.75016 3.50008H7.50016V1.16675Z" stroke="#191919" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <svg  class="icon__instagram"width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9.9165 1.16675H4.08317C2.47234 1.16675 1.1665 2.47258 1.1665 4.08342V9.91675C1.1665 11.5276 2.47234 12.8334 4.08317 12.8334H9.9165C11.5273 12.8334 12.8332 11.5276 12.8332 9.91675V4.08342C12.8332 2.47258 11.5273 1.16675 9.9165 1.16675Z" stroke="#191919" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M9.33332 6.63243C9.40531 7.11791 9.32239 7.61372 9.09635 8.04936C8.87031 8.48499 8.51266 8.83826 8.07427 9.05891C7.63589 9.27956 7.13909 9.35636 6.65453 9.27839C6.16998 9.20042 5.72235 8.97165 5.37531 8.62461C5.02828 8.27757 4.7995 7.82994 4.72153 7.34539C4.64356 6.86084 4.72036 6.36404 4.94102 5.92565C5.16167 5.48726 5.51493 5.12961 5.95057 4.90357C6.3862 4.67753 6.88201 4.59461 7.36749 4.6666C7.8627 4.74003 8.32115 4.97079 8.67515 5.32478C9.02914 5.67877 9.25989 6.13723 9.33332 6.63243Z" stroke="#191919" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M10.2085 3.79175H10.2143" stroke="#191919" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <svg class="icon__twitter"width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.4168 0.750006C12.8582 1.14403 12.2397 1.4454 11.5852 1.64251C11.2338 1.23855 10.7669 0.952243 10.2476 0.822297C9.72826 0.69235 9.18153 0.725037 8.68138 0.915938C8.18122 1.10684 7.75175 1.44674 7.45107 1.88967C7.15038 2.33261 6.99299 2.8572 7.00016 3.39251V3.97584C5.97503 4.00242 4.95924 3.77506 4.04325 3.31402C3.12726 2.85297 2.33951 2.17254 1.75016 1.33334C1.75016 1.33334 -0.58317 6.58334 4.66683 8.91667C3.46547 9.73215 2.03434 10.141 0.583496 10.0833C5.8335 13 12.2502 10.0833 12.2502 3.37501C12.2496 3.21252 12.234 3.05044 12.2035 2.89084C12.7988 2.30371 13.219 1.56242 13.4168 0.750006V0.750006Z" stroke="#191919" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <svg  class="icon__youtube"width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13.1483 3.74492C13.0791 3.46807 12.9379 3.21442 12.7392 3.00957C12.5405 2.80473 12.2913 2.65594 12.0167 2.57825C11.0133 2.33325 7.00001 2.33325 7.00001 2.33325C7.00001 2.33325 2.98668 2.33325 1.98334 2.60159C1.70874 2.67928 1.45949 2.82806 1.26079 3.03291C1.06209 3.23775 0.920968 3.49141 0.851675 3.76825C0.66805 4.78649 0.578229 5.81943 0.583341 6.85408C0.576796 7.89653 0.666622 8.93734 0.851675 9.96325C0.928068 10.2315 1.07235 10.4755 1.27059 10.6717C1.46883 10.8679 1.71432 11.0096 1.98334 11.0833C2.98668 11.3516 7.00001 11.3516 7.00001 11.3516C7.00001 11.3516 11.0133 11.3516 12.0167 11.0833C12.2913 11.0056 12.5405 10.8568 12.7392 10.6519C12.9379 10.4471 13.0791 10.1934 13.1483 9.91658C13.3306 8.90601 13.4204 7.88095 13.4167 6.85408C13.4232 5.81164 13.3334 4.77083 13.1483 3.74492V3.74492Z" stroke="#191919" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M5.6875 8.76178L9.04167 6.85428L5.6875 4.94678V8.76178Z" stroke="#191919" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+      </div>
+    </div>
+  </body>
 </html>

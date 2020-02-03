@@ -1,0 +1,244 @@
+body {
+  font-family: "helvetica Neue";
+
+  .for__her--p {
+    margin-top: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .for__her__p {
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: $grey-text;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .btn {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 289px;
+    height: 64px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    background-color: #191919;
+    color: white;
+  }
+
+  .foulard {
+    margin-top: 24px;
+    height: 328px;
+    width: 328px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .title {
+    margin-top: 32px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: $black-typo;
+    .other__color {
+      color: #d4b47b;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  }
+  .subtitle {
+    text-align: center;
+    text-transform: uppercase;
+    color: #a1a1a1;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .z {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 16px;
+    line-height: 149%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .btn-z {
+    width: 283px;
+    background-color: black;
+    color: white;
+    height: 51px;
+    text-transform: uppercase;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .for__her {
+    text-align: center;
+    .pour {
+      margin-top: 48px;
+      width: 328px;
+      height: 328px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .btn {
+      font-size: 24px;
+      text-transform: uppercase;
+      width: 289px;
+      height: 64px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 16px;
+      background-color: black;
+      color: white;
+    }
+  }
+  .for__him {
+    margin-top: 25px;
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    .pour {
+      margin-top: 48px;
+      width: 328px;
+      height: 328px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .for__him--p {
+      margin-top: 16px;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  }
+
+  .articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+    margin-top: 40px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    .articles__1--perso {
+      text-transform: uppercase;
+      color: $grey-text;
+      font-weight: bold;
+      font-size: 16px;
+      margin-top: 16px;
+    }
+    .articles__1--foulard {
+      margin-top: 8px;
+    }
+    .articles__1--prix {
+      margin-top: 8px;
+    }
+  }
+}
+.eco {
+  background-color: #191919;
+  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  height: 486px;
+
+  .a {
+    width: 160px;
+    height: 138px;
+  }
+  .a-1 {
+    width: 100%;
+    margin-top: 21px;
+  }
+  h2 {
+    color: white;
+    font-weight: bold;
+    margin-top: 16px;
+    text-align: center;
+    font-size: 16px;
+  }
+  a__img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 14px;
+  }
+  .eco__made {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .eco__made--in {
+    color: white;
+    text-align: center;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    margin-top: 5px;
+    line-height: 139%;
+    padding: 3px;
+  }
+
+  .er {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 14px;
+  }
+  .newsletter {
+    width: 100%;
+    height: 99px;
+    background-color: #f7f2ec;
+    margin-bottom: 100px;
+    padding: 1rem;
+    .pp {
+      text-transform: uppercase;
+      font-size: 13px;
+      font-weight: bold;
+      font-style: normal;
+      margin-top: 24px;
+      margin-bottom: 16px;
+    }
+    .email {
+      background-color: #f7f2ec;
+      border: none;
+      border-bottom: 2px solid black;
+      margin-top: 16px;
+    }
+    .icon__facebook {
+      margin-left: 35px;
+    }
+    .icon__instagram {
+      margin-left: 18px;
+    }
+    .icon__twitter {
+      margin-left: 18px;
+    }
+    .icon__youtube {
+      margin-left: 18px;
+    }
+  }
+}
