@@ -6,24 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="/scss/vendors/reset.css" />
     <link rel="stylesheet" href="/scss/config/styles.scss" />
-    <link rel="icon" type="image/svg" href="/asset/favicon.png" />
+
+    <link rel="icon" type="image/svg" href="/asset/images/favicon.png" />
+    <script src="js/index.js" defer></script>
+
 
     <title>Moode</title>
   </head>
   <body>
     <header class="header1">
-      <img class="logo" src="/asset/images/logomoode.svg" />
-      <div class="footer1">
-        <!-- <a  href="/src/screens/history.html">Acceuil</a> -->
-        <a  href="/screens/history.html">Acceuil</a>
-        <a  href="/screens/perso.html">Acceuil</a>
-      </div>
+      <img class="logo1" src="/asset/images/logomoode.svg" />
     </header>
-    <img
-      class="scarf__picture"
-      src="/asset/images/foulard.png"
-      alt="scarf"
-    />
+    <img class="scarf__picture" src="/asset/images/foulard.png" alt="scarf" />
     <h1 class="title">
       Nos carrés <em class="title__color">À votre image</em>
     </h1>
@@ -47,33 +41,37 @@
       <button class="for__her__btn">pour elle</button>
     </div>
     <div class="for__him">
+
       <img src="/asset/images/PhotoHomme.jpg" alt="pourlui" class="for__him__picture" />
-      <p class="for__her--p">Personnalise ton style</p>
-      <p class="for__her__p">Laisser parler votre inspiration</p>
-      <button class="for__her__btn">pour lui</button>
-      <a href="/screens/history.html"><input type="button"/></a>
+      <p class="for__him--p">Personnalise ton style</p>
+      <p class="for__him__p">Laisser parler votre inspiration</p>
+      <button class="btn">pour lui</button>
+      
+
     </div>
+    <h3 class="title__h3">Les nouveaux <em class="title__color">carrés</em></h3>
     <div class="article">
+      
       <div class="article__1">
-        <img src="/asset/images/Rectangle24.png" alt="articles" />
+        <img src="/asset/images/scarff.jpg" alt="articles" />
         <p class="article__1--perso">personnalisable</p>
         <p class="article__1--scarf">Foulard Moonlight</p>
         <p class="article__1--price">250€</p>
       </div>
       <div class="article__1">
-        <img src="/asset/images/Rectangle24.png" alt="articles" />
+        <img src="/asset/images/scarff.jpg" alt="articles" />
         <p class="article__1--perso">personnalisable</p>
         <p class="article__1--scarf">Foulard Moonlight</p>
         <p class="article__1--price">250€</p>
       </div>
       <div class="article__1">
-        <img src="/asset/images/Rectangle24.png" alt="articles" />
+        <img src="/asset/images/scarff.jpg" alt="articles" />
         <p class="article__1--perso">personnalisable</p>
         <p class="article__1--scarf">Foulard Moonlight</p>
         <p class="article__1--price">250€</p>
       </div>
       <div class="article__1">
-        <img src="/asset/images/Rectangle24.png" alt="articles" />
+        <img src="/asset/images/scarff.jpg" alt="articles" />
         <p class="article__1--perso">personnalisable</p>
         <p class="article__1--scarf">Foulard Moonlight</p>
         <p class="article__1--price">250€</p>
@@ -81,40 +79,62 @@
     </div>
     <div class="avantages">
       <h3 class="avantages__title">AVANTAGES MOODE</h3>
-      
+
       <div class="avantages__articles">
-        <img src="/asset/images/carte.svg" alt="q" class="avantages__articles--images" />
+        <img
+          src="/asset/images/carte.svg"
+          alt="q"
+          class="avantages__articles--images"
+        />
         <p class="eco__made">made in france</p>
         <p class="eco__made--in">Production et fabrication 100% française</p>
       </div>
       <div class="avantages__articles">
-        <img src="/asset/images/Artisan.svg" alt="q" class="avantages__articles--images" />
+        <img
+          src="/asset/images/Artisan.svg"
+          alt="q"
+          class="avantages__articles--images"
+        />
         <p class="eco__made">Savoir-faire</p>
         <p class="eco__made--in">Savoir-faire artisanale</p>
       </div>
       <div class="avantages__articles">
-        <img src="/asset/images/Recyclage.svg" alt="q" class="avantages__articles--images" />
+        <img
+          src="/asset/images/Recyclage.svg"
+          alt="q"
+          class="avantages__articles--images"
+        />
         <p class="eco__made">impact</p>
         <p class="eco__made--in">
           Matériaux recyclables et réspectueux de l’environnement
         </p>
       </div>
       <div class="avantages__articles">
-        <img src="/asset/images/Vector.svg" alt="q" class="avantages__articles--images" />
+        <img
+          src="/asset/images/Vector.svg"
+          alt="q"
+          class="avantages__articles--images"
+        />
         <p class="eco__made">L’art d’offrir</p>
         <p class="eco__made--in">
           Votre commande sublimée dans un coffret Moode iconique
         </p>
       </div>
       <div class="avantages__articles">
-        <img src="/asset/images/l.svg" alt="q" class="avantages__articles--images" />
+        <img
+          src="/asset/images/l.svg"
+          alt="q"
+          class="avantages__articles--images"
+        />
         <p class="eco__made">Livraison et retours</p>
         <p class="eco__made--in">
           Livraison standard et retours offerts pour toute commande
         </p>
       </div>
+    </div>
       <div class="newsletter">
         <p class="newsletter__para">Rejoigner notre newsletter</p>
+        
         <input
           type="email"
           class="newsletter__email"
@@ -123,6 +143,7 @@
           required
           placeholder="Saisissez votre adresse e-mail"
         />
+        
         <svg
           class="icon__facebook"
           width="8"
@@ -202,14 +223,48 @@
           />
         </svg>
       </div>
-    </div>
+      
+    
     <nav class="bottom__nav">
       <ul>
+
       <li><a href="index.html"><img class="footer__icon"src="/asset/images/home.svg" alt="Acceuil"></a></li>
-      <li><a href="/screens/history.html"><img class="footer__icon" src="/asset/images/design.svg" alt="Design"></a></li>
-      <li><a href="/screens/perso.html"><img class="footer__icon"src="/asset/images/article.svg" alt="Articles"></a></li>
+      <li><a href="/screens/perso.html"><img class="footer__icon" src="/asset/images/des.svg" alt="Design"></a></li>
+      <li><a href="/screens/history.html"><img class="footer__icon"src="/asset/images/article.svg" alt="Articles"></a></li>
       <li><a><img class="footer__icon" src="/asset/images/account.svg" alt="Compte"></a></li>
     </ul>
     </nav> 
+    <div class="footer-history"> 
+      <div class="footer-history1"> 
+        
+          <p class="footer--title1">SERVICE CLIENT</p>
+          <p>FAQ</p>
+          <p>Livraison</p>
+          <p>Retour & <br> remboursement</p>
+          <p>Paiement</p>
+          <p>Contact</p>
+       
+      </div>
+      <div class="footer-history2"> 
+        
+          <p class="footer--title2">À PROPOS</p>
+          <p>Profil de <br> l'entreprise</p>
+          <p>Carrières</p>
+          <p>Presse</p>
+          <p>Relation avec <br> les investisseurs</p>
+        
+      </div>
+      <div class="footer-history3"> 
+    
+          <p class="footer--title3">JURIDIQUE</p>
+
+          <p>Mentions légales</p>
+          <p>Politique de <br> confidentialité</p>
+          <p>Conditions <br> générales de ventes</p> 
+  
+  </div>
+</div>
+  <img src="/asset/images/logomoode.svg" class="logo">
+
   </body>
 </html>
