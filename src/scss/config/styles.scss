@@ -1,5 +1,20 @@
 body {
-    font-family: "helvetica Neue";
+     font-family: "helvetica Neue";
+     display: block;
+     margin-right: auto;
+     margin-left: auto;
+    // .for__her__btn {
+    //     font-size: 24px;
+    //     text-transform: uppercase;
+    //     width: 289px;
+    //     height: 64px;
+    //     display: block;
+    //     margin-left: auto;
+    //     margin-right: auto;
+    //     margin-top: 16px;
+    //     background-color: black;
+    //     color: white;
+     
 
     .header1{
       display: block;
@@ -8,14 +23,7 @@ body {
       text-align: center;
     }
     
-    .for__her--p {
-      margin-top: 16px;
-      font-size: 20px;
-      font-weight: bold;
-      text-transform: uppercase;
-      margin-left: 1rem;
-      margin-right: 1rem;
-    }
+
     .for__her__p {
       text-transform: uppercase;
       font-size: 16px;
@@ -25,19 +33,19 @@ body {
       margin-left: 1rem;
       margin-right: 1rem;
     }
-    .btn {
-      font-size: 24px;
-      text-transform: uppercase;
-      font-weight: bold;
-      width: 289px;
-      height: 64px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 1rem;
-      background-color: #191919;
-      color: white;
-    }
+    // .btn {
+    //   font-size: 24px;
+    //   text-transform: uppercase;
+    //   font-weight: bold;
+    //   width: 289px;
+    //   height: 64px;
+    //   display: block;
+    //   margin-left: auto;
+    //   margin-right: auto;
+    //   margin-top: 1rem;
+    //   background-color: #191919;
+    //   color: white;
+    // }
   
     .scarf__picture {
       margin-top: 24px;
@@ -214,7 +222,6 @@ body {
       height: 99px;
       background-color: #f7f2ec;
       margin-top: 40px;
-      margin-bottom: 100px;
       padding: 1rem;
       .newsletter__para {
         text-transform: uppercase;
@@ -230,6 +237,7 @@ body {
         border-bottom: 2px solid black;
         margin-top: 16px;
       }
+     
       .icon__facebook {
         margin-left: 35px;
       }
@@ -241,8 +249,19 @@ body {
       }
       .icon__youtube {
         margin-left: 18px;
-      }}
+      }
+
+      
     
+    }
+    .bottom__nav {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: rgb(255, 0, 234);  
+    }  
+
+
+
   
   // perso scss kilian
   
