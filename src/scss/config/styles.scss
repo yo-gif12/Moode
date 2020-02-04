@@ -1,160 +1,172 @@
 body {
-     font-family: "helvetica Neue";
-     display: block;
-     margin-right: auto;
-     margin-left: auto;
-    // .for__her__btn {
-    //     font-size: 24px;
-    //     text-transform: uppercase;
-    //     width: 289px;
-    //     height: 64px;
-    //     display: block;
-    //     margin-left: auto;
-    //     margin-right: auto;
-    //     margin-top: 16px;
-    //     background-color: black;
-    //     color: white;
-     
-
-    .header1{
+  font-family: "helvetica Neue";
+  .header1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .scarf__picture {
+    margin-top: 24px;
+    height: 328px;
+    width: 328px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .title {
+    margin-top: 32px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #191919;
+    .title__color {
+      color: #d4b47b;
+    }
+  }
+  .subtitle {
+    text-align: center;
+    text-transform: uppercase;
+    color: #a1a1a1;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .subtitle__text {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 16px;
+    line-height: 149%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .btn-cta {
+    width: 283px;
+    background-color: black;
+    color: white;
+    height: 51px;
+    text-transform: uppercase;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .for__her {
+    text-align: center;
+    .for__her__picture {
+      margin-top: 48px;
+      width: 328px;
+      height: 328px;
       display: block;
       margin-left: auto;
       margin-right: auto;
-      text-align: center;
     }
-    
-
+    .for__her--p {
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 18px;
+      color: black;
+      margin-top: 16px;
+    }
     .for__her__p {
       text-transform: uppercase;
       font-size: 16px;
       margin-top: 1rem;
       font-weight: bold;
-      color: #AEABAB;
+      color: #aeabab;
       margin-left: 1rem;
       margin-right: 1rem;
     }
-    // .btn {
-    //   font-size: 24px;
-    //   text-transform: uppercase;
-    //   font-weight: bold;
-    //   width: 289px;
-    //   height: 64px;
-    //   display: block;
-    //   margin-left: auto;
-    //   margin-right: auto;
-    //   margin-top: 1rem;
-    //   background-color: #191919;
-    //   color: white;
-    // }
-  
-    .scarf__picture {
-      margin-top: 24px;
-      height: 328px;
-      width: 328px;
+    .for__her__btn {
+      font-size: 24px;
+      text-transform: uppercase;
+      width: 289px;
+      height: 64px;
       display: block;
       margin-left: auto;
       margin-right: auto;
-    }
-    .title {
-      margin-top: 32px;
-      font-size: 20px;
-      font-weight: bold;
-      text-align: center;
-      text-transform: uppercase;
-      color: #191919;
-      .title__color {
-        color: #d4b47b;
-      }
-    }
-    .subtitle {
-      text-align: center;
-      text-transform: uppercase;
-      color: #a1a1a1;
-      margin-top: 8px;
-      font-size: 14px;
-      font-weight: bold;
-      margin-left: 1rem;
-      margin-right: 1rem;
-    }
-    .subtitle__text {
-      text-align: center;
-      font-size: 16px;
-      font-weight: 300;
       margin-top: 16px;
-      line-height: 149%;
-      margin-left: 1rem;
-      margin-right: 1rem;
-    }
-    .btn-cta {
-      width: 283px;
       background-color: black;
       color: white;
-      height: 51px;
-      text-transform: uppercase;
+      font-weight: bold;
+    }
+  }
+  .for__him {
+    margin-top: 25px;
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    .for__him__picture {
+      margin-top: 48px;
+      width: 328px;
+      height: 328px;
       display: block;
       margin-left: auto;
       margin-right: auto;
-      margin-top: 16px;
-      font-size: 14px;
+    }
+
+    .for__him--p {
+      text-align: center;
+      text-transform: uppercase;
       font-weight: bold;
+      font-size: 18px;
+      color: black;
+      margin-top: 16px;
     }
-  
-    .for__her {
-      text-align: center;
-      .for__her__picture {
-        margin-top: 48px;
-        width: 328px;
-        height: 328px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-      }
-  
-      .for__her__btn {
-        font-size: 24px;
-        text-transform: uppercase;
-        width: 289px;
-        height: 64px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 16px;
-        background-color: black;
-        color: white;
-      }
-    }
-    .for__him {
-      margin-top: 25px;
-      text-align: center;
+    .for__him__p {
+      text-transform: uppercase;
+      font-size: 16px;
+      margin-top: 1rem;
+      font-weight: bold;
+      color: #aeabab;
       margin-left: 1rem;
       margin-right: 1rem;
-  
-      .for__him__picture {
-        margin-top: 48px;
-        width: 328px;
-        height: 328px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-      }
-      .for__him--p {
-        margin-top: 16px;
-        margin-left: 1rem;
-        margin-right: 1rem;
-      }
     }
-  
-    .article {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      margin-bottom: 1rem;
-      margin-top: 40px;
-      margin-left: 1rem;
-      margin-right: 1rem;
+    .btn {
+      font-size: 24px;
+      text-transform: uppercase;
+      font-weight: bold;
+      width: 289px;
+      height: 64px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 1rem;
+      background-color: #191919;
+      color: white;
+    }
+  }
+
+  .title__h3 {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 16px;
+    text-transform: uppercase;
+    .title__color {
+      color: #d4b47b;
+    }
+  }
+  .article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+    margin-top: 40px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    .article__1 {
       .article__1--perso {
         text-transform: uppercase;
-        color: #AEABAB;
+        color: #aeabab;
         font-weight: bold;
         font-size: 16px;
         margin-top: 16px;
@@ -167,15 +179,15 @@ body {
       }
     }
   }
+
   .avantages {
     background-color: #191919;
-    margin-bottom: 40px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     width: 100%;
     height: 486px;
-  
+
     .avantages__articles {
       width: 160px;
       height: 138px;
@@ -190,8 +202,13 @@ body {
       margin-top: 16px;
       text-align: center;
       font-size: 16px;
+      margin-bottom: 8px;
     }
-  
+    .avantages__articles--images {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 14px;
     }
     .eco__made {
       color: white;
@@ -199,7 +216,6 @@ body {
       font-weight: bold;
       text-align: center;
     }
-  
     .eco__made--in {
       color: white;
       text-align: center;
@@ -210,167 +226,81 @@ body {
       line-height: 139%;
       padding: 3px;
     }
-  
-    .avantages__articles--images {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 14px;
+  }
+  .newsletter {
+    width: auto;
+    height: 99px;
+    background-color: #f7f2ec;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    .newsletter__para {
+      text-transform: uppercase;
+      font-size: 13px;
+      font-weight: bold;
+      font-style: normal;
+      padding-top: 24px;
+      margin-bottom: 16px;
     }
-    .newsletter {
-      width: auto;
-      height: 99px;
+    .newsletter__email {
       background-color: #f7f2ec;
-      margin-top: 40px;
-      padding: 1rem;
-      .newsletter__para {
-        text-transform: uppercase;
-        font-size: 13px;
-        font-weight: bold;
-        font-style: normal;
-        margin-top: 24px;
-        margin-bottom: 16px;
-      }
-      .newsletter__email {
-        background-color: #f7f2ec;
-        border: none;
-        border-bottom: 2px solid black;
-        margin-top: 16px;
-      }
-     
-      .icon__facebook {
-        margin-left: 35px;
-      }
-      .icon__instagram {
-        margin-left: 18px;
-      }
-      .icon__twitter {
-        margin-left: 18px;
-      }
-      .icon__youtube {
-        margin-left: 18px;
-      }
-
-      
-    
+      border: none;
+      border-bottom: 2px solid black;
+      margin-top: 16px;
     }
-    .bottom__nav {
-        display: flex;
-        flex-wrap: wrap;
-        background-color: rgb(255, 0, 234);  
-    }  
 
+    .icon__facebook {
+      margin-left: 35px;
+    }
+    .icon__instagram {
+      margin-left: 18px;
+    }
+    .icon__twitter {
+      margin-left: 18px;
+    }
+    .icon__youtube {
+      margin-left: 18px;
+    }
+  }
 
+  .bottom__nav {
+    position: sticky;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
 
-  
-  // perso scss kilian
-  
-//   .picture--logo{
-//     display: block;
-//     margin-left: auto;
-//     margin-right: auto;
-//   }
-    
-//   .picture--foulard-perso{
-//       display: block;
-//       margin-left: auto;
-//       margin-right: auto;
-//       width: 160px;
-//       height: 263px;
-//       border-bottom-color: black;
-//       border-bottom:solid;
-//       border-bottom-width: 1px;
-//     } 
-  
-//   .modif{
-//     display: flex;
-//     justify-content: space-around;
-//     margin-top: 16px;
-//     margin-bottom: 24px;
-//   }
-  
-//   .motifs{
-//     display: flex;
-//     flex-wrap: wrap;
-//     margin-left: auto;
-//     margin-right: auto;
-//     margin-bottom: 48px;
-//   }
-  
-//   .pastilles{
-//     display: flex;
-//     justify-content: space-around;
-//   }
-  
-//   .tissus{
-//     display: flex;
-//     text-align: center;
-//   }
-  
-//   .détails--title{
-//     text-align: center;
-//     border-top:solid;
-//     border-top-width:1px;
-//     padding-top: 16px;
-    
-//   }
-  
-//   .détails--description{
-//     text-align: center;
-//   }
-  
-//   .détails--codeproduit{
-//     font-weight: 300;
-//     text-align: center;
-//     font-size: 14px;
-//   }
-//   .détails--compo{
-//     font-weight: 300;
-//     text-align: center;
-//     font-size: 14px;
-//   }
-  
-//   .add{
-//     background-color: black;
-//     color: white;
-//     text-align: center;
-//     font-size: 16px;
-//     display: block;
-//     margin-left: auto;
-//     margin-right: auto;
-//     height: 72px;
-//     width: 328px;
-//     margin-top: 32px;
-    
-//   }
-  
-//   .info{
-//     text-align: center;
-//   }
-  
-//   .help{
-//     display: flex;
-//     justify-content:space-around;
-//     border-top:solid;
-//     border-top-width:1px;
-//     border-bottom-width:1px;
-//   }
-  
-//   .price{
-//     text-align: center;
-//     font-weight: bolder;
-//     font-size: 24px;
-//     border-top:solid;
-//     border-top-width:1px;
-//   }
-  
-//   .footer {
-//     display: flex;
-//     justify-content: space-around;
-//     position: sticky;
-//     position: fixed;
-//     bottom: 0;
-//     width: 100%;
-//     background-color: white;
-//   }
-  
+  .footer-history {
+    display: flex;
+    justify-content: space-around;
+    font-size: 10px;
+    font-weight: 300;
+    margin: 16px;
+    text-align: left;
+    border-bottom: 2px solid #c4c4c4;
+    line-height: 139%;
+  }
+
+  .footer--title1 {
+    font-weight: bold;
+  }
+  .footer--title2 {
+    font-weight: bold;
+  }
+  .footer--title3 {
+    font-weight: bold;
+  }
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+  }
+}
