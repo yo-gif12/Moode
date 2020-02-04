@@ -15,7 +15,7 @@ __*Your Style, Your Art, Your Mood*__
 
 - Emmy PETEYTAS
 
-- Cristiana Monteiro
+- Cristiana MONTEIRO
 
 ## Our Figma 
 https://www.figma.com/file/UwVvKIVekA0lcPJNTwsl49/Foulard?node-id=0%3A1
