@@ -33,6 +33,7 @@ function chooseColors() {
   }
 }
 
+// Permet de retirer à tous les items du tableau "colors" la classe "is-visible"
 function hideAll() {
   colors.forEach(function(item, index, array) {
     item.classList.remove("is-visible");
