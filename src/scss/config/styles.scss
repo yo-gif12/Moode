@@ -1,5 +1,6 @@
 body {
     font-family: "helvetica Neue";
+
     .header1{
       display: block;
       margin-left: auto;
@@ -38,7 +39,7 @@ body {
       color: white;
     }
   
-    .foulard__image {
+    .scarf__picture {
       margin-top: 24px;
       height: 328px;
       width: 328px;
@@ -53,7 +54,7 @@ body {
       text-align: center;
       text-transform: uppercase;
       color: #191919;
-      .title__color2 {
+      .title__color {
         color: #d4b47b;
       }
     }
@@ -64,7 +65,7 @@ body {
       margin-top: 8px;
       font-size: 14px;
       font-weight: bold;
-      margin-left: 3rem;
+      margin-left: 1rem;
       margin-right: 1rem;
     }
     .subtitle__text {
@@ -92,7 +93,7 @@ body {
   
     .for__her {
       text-align: center;
-      .for__her__img {
+      .for__her__picture {
         margin-top: 48px;
         width: 328px;
         height: 328px;
@@ -120,7 +121,7 @@ body {
       margin-left: 1rem;
       margin-right: 1rem;
   
-      .pour {
+      .for__him__picture {
         margin-top: 48px;
         width: 328px;
         height: 328px;
@@ -135,7 +136,7 @@ body {
       }
     }
   
-    .articles {
+    .article {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
@@ -143,22 +144,22 @@ body {
       margin-top: 40px;
       margin-left: 1rem;
       margin-right: 1rem;
-      .articles__1--perso {
+      .article__1--perso {
         text-transform: uppercase;
         color: #AEABAB;
         font-weight: bold;
         font-size: 16px;
         margin-top: 16px;
       }
-      .articles__1--foulard {
+      .article__1--scarf {
         margin-top: 8px;
       }
-      .articles__1--prix {
+      .article__1--price {
         margin-top: 8px;
       }
     }
   }
-  .eco {
+  .avantages {
     background-color: #191919;
     margin-bottom: 40px;
     display: flex;
@@ -209,9 +210,10 @@ body {
       margin-bottom: 14px;
     }
     .newsletter {
-      width: 100%;
+      width: auto;
       height: 99px;
       background-color: #f7f2ec;
+      margin-top: 40px;
       margin-bottom: 100px;
       padding: 1rem;
       .newsletter__para {
@@ -240,16 +242,7 @@ body {
       .icon__youtube {
         margin-left: 18px;
       }
-    }
-    .footer1 {
-      display: flex;
-      justify-content: space-around;
-      position: sticky;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-      background-color: white;
-    }
+    
   
   // perso scss
   
@@ -457,21 +450,6 @@ body {
     display: flex;
     align-content: center;
   }
-  
-  //.footer {
-  
-  
-  // }
-  
-  // .footer1 {
-  
-  // }
-  
-  // .footer2 {
-  
-  // }
-  
-  // .footer3{
-    
-  // }
-  
+
+
+    }
