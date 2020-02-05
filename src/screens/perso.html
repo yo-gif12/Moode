@@ -5,23 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="/scss/bloc/perso.scss">
-    <title>Moode</title>
+  <script defer src="/js/app.js"></script>
+  <title>Moode</title>
 </head>
 <body>
-  <div class="header">
+  <div class="promo">
 		<p class="p_header">MESSAGE PROMOTIONNEL</p>
-	</div>	
+  </div>	
+  <div class="header">
   <img class="picture picture--logo" src="/asset/images/logomoode.svg">
   <div class="nav_elements">
       <a class=category href="/index.html">PERSONNALISATION</a> 
       <a class=category href="#2">ARTICLES</a>
       <a class=category href="#3">NOTRE HISTORIE</a>
   </div>
+ </div>
   <div class="big">
   <div class="o">
-  <img class="foulard-perso" src="/asset/images/Foulard-vue2.svg" alt="foulard-perso">
+  <img class="foulard-perso pattern" src="/asset/images/Foulard-vue2.svg" alt="foulard-perso">
   </div>
   <div class="r">
+    <div class="details">
+      <p class="détails--title">Détail de l'article </p>
+      <p class="détails--description">Grand carré réversible en soie et lin. Bords frangés. Dimensions : 140 X 140 cm.</p>
+      <p class="détails--codeproduit">Code du produit : ME00392U-004</p>
+      <p class="détails--compo">Composition : 56% Soie 44% Lin.</p>
+    </div>
   <div class="modif">
     <p class="modif modif--couleurs">Couleurs</p>
     <p class="modif modif--motifs">Motifs</p>
@@ -29,29 +38,28 @@
     <p class="modif modif--tissus">Tissus</p>
   </div> 
   <div class="motifs">
-
-    <img class="motif" src="/asset/images/motifdragon.jpg" alt="motif3">
-    <img class="motif" src="/asset/images/motiffemme.jpg" alt="motif4">
-    <img class="motif" src="/asset/images/motiffleur.jpg" alt="motif5">
+    <img class="motif--plant" src="/asset/images/motifplant.jpg" alt="motif3">
+    <img class="motif--poisson" src="/asset/images/motif-poisson.jpg" alt="motif4">
+    <img class="motif--oiseau" src="/asset/images/motifpoisson.jpg" alt="motif5">
   </div> 
   <div class="pastilles">
-    <img class="pastilles--blanc" src="/asset/images/blanc.jpg">
+    <img class="pastilles--blanc data-pattern" src="/asset/images/blanc.jpg">
    
-    <img class="pastilles--mauve" src="/asset/images/mauve.jpg">
+    <img class="pastilles--mauve data-pattern" src="/asset/images/mauve.jpg">
     
-    <img class="pastilles--noir" src="/asset/images/noir.jpg">
+    <img class="pastilles--noir data-pattern" src="/asset/images/noir.jpg">
   </div> 
   <div class="tissus">
     <p class="tissu1">SOIE NATURELLE</p>
     <p class="tissu2">CHANVRE NATUREL</p>
     <p class="tissu3">LIN NATUREL</p>
   </div>
-  <div class="details">
-    <p class="détails--title">Détail de l'article </p>
-    <p class="détails--description">Grand carré réversible en soie et lin. Bords frangés. Dimensions : 140 X 140 cm.</p>
-    <p class="détails--codeproduit">Code du produit : ME00392U-004</p>
-    <p class="détails--compo">Composition : 56% Soie 44% Lin.</p>
+  <form>
+  <div class="text">
+    <label for="text">Tappez votre texte ici</label>
+    <input type="text" id="text" name="name">
   </div>
+  </form>
   <div class="help">
     <p class="help--text">Avez-vous besoin d'aide ?</p>
     <p class="help--plus">+</p>
@@ -66,7 +74,6 @@
 </div>
 <nav class="bottom__nav">
   <ul class="bottom__nav--list">
-
   <li><a href="/index.html"><img class="footer__icon"src="/asset/images/home.svg" alt="Acceuil"></a></li>
   <li><a href="/screens/perso.html"><img class="footer__icon" src="/asset/images/des.svg" alt="Design"></a></li>
   <li><a href="/screens/history.html"><img class="footer__icon"src="/asset/images/article.svg" alt="Articles"></a></li>

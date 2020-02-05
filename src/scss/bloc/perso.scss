@@ -42,7 +42,15 @@ body{
         text-align: center;
         justify-content: space-between;
       }
-      
+      .text{
+        margin-top: 16px;
+        margin-bottom: 16px;
+        align-items: center;
+      }
+      #text{
+        border: solid 1px black;
+        margin-left: 40px;
+      }
       .détails--title{
         text-align: center;
         border-top:solid;
@@ -121,7 +129,7 @@ body{
        
         }
       }
-      .header {
+      .promo {
         display: flex;
         width: 100%;
         height: 40px;
@@ -135,6 +143,18 @@ body{
         text-decoration: underline;
         font-size: 12px;
         font-weight: bold;
+      }
+
+      .header{
+        display: flex;
+      }
+
+      .nav_elements{
+        a{
+          padding-top: 40px;
+          text-decoration: none;
+          color: black;
+        }
       }
       
 }
@@ -177,12 +197,13 @@ body{
 
 img.foulard-perso{
   height: 100%;
-  width: 40%;
+  width: 60%;
+  border-bottom: none;
 }
 }
 
 @media (min-width:361px) {
-  .footer{
+  .bottom__nav{
     visibility: hidden;
     opacity: 0;
   }
