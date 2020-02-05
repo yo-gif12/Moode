@@ -1,15 +1,13 @@
-// Axel JS
-
 // <div class="pattern__color" data-pattern="red.png">
 
-let patternEl = document.querySelector(".pattern");
+// let patternEl = document.querySelector(".pattern");
 
-document.querySelectorAll(".pattern__color").forEach(function(colorEl) {
-  colorEl.addEventListener("click", function() {
-    let pattern = colorEl.getAttribute("data-pattern"); // "red.png"
-    patternEl.style.background = 'url("images/' + pattern + '")';
-  });
-});
+// document.querySelectorAll(".pattern__color").forEach(function(colorEl) {
+//   colorEl.addEventListener("click", function() {
+//     let pattern = colorEl.getAttribute("data-pattern"); // "red.png"
+//     patternEl.style.background = 'url("images/' + pattern + '")';
+//   });
+// });
 
 // let patternBlue = document.querySelector(".pattern__color--blue");
 // let patternRed = document.querySelector(".pattern__color--red");
