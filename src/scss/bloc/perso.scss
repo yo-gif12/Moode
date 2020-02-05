@@ -7,15 +7,15 @@ body{
         margin-right: auto;
       }
         
-      .picture--foulard-perso{
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
+      .foulard-perso{
           width: 160px;
           height: 263px;
           border-bottom-color: black;
           border-bottom:solid;
           border-bottom-width: 1px;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
         } 
       
       .modif{
@@ -34,6 +34,7 @@ body{
       .pastilles{
         display: flex;
         justify-content: space-around;
+        margin-bottom:48px;
       }
       
       .tissus{
@@ -144,7 +145,6 @@ body{
 	margin-left: 65px;
 	display: flex;
   align-items: center;
-  align-items: center;
   }
   .nav_elements{
   width: 100vw;
@@ -159,9 +159,9 @@ body{
  }
  .big{
    display: flex;
-   flex-direction: row;
-   justify-content: flex-start;
-   justify-content: space-between;
+  //  flex-direction: row;
+  //  justify-content: flex-start;
+  //  justify-content: space-between;
  }
  .r{
   display: flex;
@@ -171,19 +171,32 @@ body{
 
 .o{
   display: flex;
+  width: 50vw;
+  width: 100%;
 }
 
-.foulard-perso{
-  width: 489px;
+img.foulard-perso{
+  height: 100%;
+  width: 40%;
 }
 }
 
-@media (max-width:360px) {
-  .nav_elements{
-    display: none;
-  }
+@media (min-width:361px) {
   .footer{
-    display: none;
+    visibility: hidden;
+    opacity: 0;
   }
+}
+
+@media (max-width:361px) {
+    .nav_elements{
+      display: none;
+    }
+    
+      .foulard-perso{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
 
 }
