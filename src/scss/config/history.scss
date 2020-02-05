@@ -2,30 +2,32 @@ body {
   font-family: "helvetica Neue";
   margin: 16px;
 
-  .header {
+  .history__content {
+    display: flex;
+    flex-direction: column;
+  }
+
+.history__header {
     display: flex;
     justify-content: center;
     margin-top: 16px;
     width: 100%;
     margin-bottom: 10px;
   }
-  .top {
-    display: flex;
-    align-content: center;
-    flex-direction: column;
-  }
-  .content {
-    display: flex;
-    flex-direction: column;
-  }
 
-  img {
+  .history__header--logo {
     display: flex;
     align-content: center;
     margin-bottom: 24px;
   }
 
-  .title-history {
+.brand__history {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+  }
+
+  .brand__history--title {
     display: flex;
     width: 100%;
     font-size: 24px;
@@ -38,7 +40,7 @@ body {
     margin-bottom: 8px;
   }
 
-  .moode-home {
+  .brand__history--subtitle {
     display: flex;
     width: 100%;
     font-weight: 500;
@@ -49,7 +51,7 @@ body {
     margin-bottom: 32px;
     margin-top: 0px;
   }
-  .text1 {
+  .brand__history--text {
     display: flex;
     width: 328px;
     height: 240px;
@@ -64,13 +66,13 @@ body {
     margin: auto;
   }
 
-  .top2 {
+  .environment__history {
     display: flex;
     width: 100%;
     flex-direction: column;
   }
 
-  .title-developpement {
+  .environment__title--history {
     font-weight: bold;
     font-size: 24px;
     line-height: 29px;
@@ -82,7 +84,7 @@ body {
     margin-top: 40px;
     justify-content: center;
   }
-  .text2 {
+  .environment__text--history {
     display: flex;
     font-weight: normal;
     font-size: 16px;
@@ -96,11 +98,11 @@ body {
     margin-top: 0px;
     margin: auto;
   }
-  .picture {
+  .history__picture--paris {
     display: none;
   }
 
-  .little-picture {
+  .history__little-picture--paris {
     display: flex;
     align-content: center;
     margin-top: 40px;
@@ -141,7 +143,6 @@ body {
   .footer--title1 {
     font-weight: bold;
   }
-
   .footer--title2 {
     font-weight: bold;
   }
@@ -163,29 +164,29 @@ body {
     font-family: "helvetica Neue";
     margin: 80px;
 
-    .header {
+    .history__header {
       display: flex;
       justify-content: center;
       margin-top: 16px;
       width: 100%;
       margin-bottom: 10px;
     }
-    .top {
+    .brand__history {
       display: flex;
       align-content: center;
       flex-direction: column;
     }
-    .content {
+    .history__content {
       display: flex;
       flex-direction: column;
     }
 
-    img {
+    .history__header--logo {
       display: flex;
       align-content: center;
     }
 
-    .title-history {
+    .brand__history--title {
       display: flex;
       width: 100%;
       align-items: center;
@@ -196,7 +197,7 @@ body {
       margin-bottom: 24px;
     }
 
-    .moode-home {
+    .brand__history--subtitle {
       display: flex;
       width: 100%;
       font-weight: 500;
@@ -206,7 +207,7 @@ body {
       justify-content: center;
       margin-bottom: 32px;
     }
-    .text1 {
+    .brand__history--text {
       display: flex;
       width: 1002px;
       height: 90px;
@@ -220,13 +221,13 @@ body {
       margin-bottom: 64px;
     }
 
-    .top2 {
+    .environment__history {
       display: flex;
       width: 100%;
       flex-direction: column;
     }
 
-    .title-developpement {
+    .environment__title--history {
       font-weight: bold;
       font-size: 36px;
       line-height: 29px;
@@ -238,7 +239,7 @@ body {
       margin-bottom: 50px;
       margin-top: 0px;
     }
-    .text2 {
+    .environment__text--history {
       display: flex;
       font-weight: normal;
       width: 1002px;
@@ -252,11 +253,11 @@ body {
       margin-bottom: 50px;
     }
 
-    .picture {
+    .history__picture--paris {
       display: flex;
       align-content: center;
     }
-.little-picture {
+.history__little-picture--paris {
     display: none;
 }
     .bottom__nav {
