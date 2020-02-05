@@ -12,7 +12,12 @@ body {
   .menu__list {
     display: none;
   }
-
+.header__basket--icon{
+  display: none;
+}
+.header__login--icon{
+  display: none;
+}
   .animation__desktop {
     display: none;
   }
@@ -346,8 +351,14 @@ body {
       .menu__list--item {
         margin-right: 54px;
       }
+     
     }
-    
+    .icon{
+      display: flex;
+      justify-content: space-between;
+      width: 80px;
+      margin-left:400px;
+    }
 
     .scarf__picture {
       display: none;
