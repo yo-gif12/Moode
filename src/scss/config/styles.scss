@@ -1,14 +1,15 @@
 body {
   font-family: "helvetica Neue";
-  .header1 {
+  .header__logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
   }
-  .content{
+  .animation__desktop{
     display: none;
   }
+ 
   .scarf__picture {
     margin-top: 24px;
     height: 328px;
@@ -17,18 +18,18 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
-  .title {
+  .scarf__title {
     margin-top: 32px;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
     color: #191919;
-    .title__color {
+    .scarf__title--color {
       color: #d4b47b;
     }
   }
-  .subtitle {
+  .scarf__subtitle {
     text-align: center;
     text-transform: uppercase;
     color: #a1a1a1;
@@ -38,7 +39,7 @@ body {
     margin-left: 1rem;
     margin-right: 1rem;
   }
-  .subtitle__text {
+  .scarf__subtitle--text {
     text-align: center;
     font-size: 16px;
     font-weight: 300;
@@ -47,7 +48,7 @@ body {
     margin-left: 1rem;
     margin-right: 1rem;
   }
-  .btn-cta {
+  .scarf__cta--btn {
     width: 283px;
     background-color: black;
     color: white;
@@ -78,7 +79,7 @@ body {
       color: black;
       margin-top: 16px;
     }
-    .for__her__p {
+    .for__her--p--p {
       text-transform: uppercase;
       font-size: 16px;
       margin-top: 1rem;
@@ -124,7 +125,7 @@ body {
       color: black;
       margin-top: 16px;
     }
-    .for__him__p {
+    .for__him--p--p {
       text-transform: uppercase;
       font-size: 16px;
       margin-top: 1rem;
@@ -133,7 +134,7 @@ body {
       margin-left: 1rem;
       margin-right: 1rem;
     }
-    .btn {
+    .for__him__btn {
       font-size: 24px;
       text-transform: uppercase;
       font-weight: bold;
@@ -148,13 +149,13 @@ body {
     }
   }
 
-  .title__h3 {
+  .scarf__title {
     font-weight: bold;
     font-size: 18px;
     text-align: center;
     margin-top: 16px;
     text-transform: uppercase;
-    .title__color {
+    .scarf__title--color {
       color: #d4b47b;
     }
   }
@@ -167,7 +168,7 @@ body {
     margin-left: 1rem;
     margin-right: 1rem;
     .article__1 {
-      .article__1--perso {
+      .article__1--custom {
         text-transform: uppercase;
         color: #aeabab;
         font-weight: bold;
@@ -310,13 +311,17 @@ body {
 }
 
 @media (min-width:1366px){
+  
   body {
     font-family: "helvetica Neue";
-    .header1 {
-      height: 116px;
-      
-      
+    .header {
+      display: flex;
+      width: 100%;
+      height: 40px;
+      background: #EBE0D3;
     }
+    
+
     .scarf__picture {
       display: none;
     }
@@ -325,7 +330,7 @@ body {
       margin: none;
     }
     
-    section {
+    .animation__content {
       margin: none;
       display: flex;
     }
@@ -336,7 +341,7 @@ body {
       display: inline-block;
     }
     
-    .content {
+    .animation__desktop {
       height: 514px;
       width: 693px;
       overflow: hidden;
