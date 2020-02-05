@@ -1,9 +1,9 @@
 body {
   font-family: "helvetica Neue";
+
   .header {
     width: 100%;
   }
-  
   .logo__container {
     width: 100%;
     display: flex;
@@ -126,7 +126,6 @@ body {
       margin-left: auto;
       margin-right: auto;
     }
-
     .for__him--p {
       text-align: center;
       text-transform: uppercase;
@@ -264,16 +263,16 @@ body {
     }
 
     .icon__facebook {
-      margin-left: 35px;
+      margin-left: 30px;
     }
     .icon__instagram {
-      margin-left: 18px;
+      margin-left: 15px;
     }
     .icon__twitter {
-      margin-left: 18px;
+      margin-left: 15px;
     }
     .icon__youtube {
-      margin-left: 18px;
+      margin-left: 15px;
     }
   }
 
@@ -388,6 +387,7 @@ body {
       
       .menu__list--item {
         margin-right: 54px;
+        font-style: none;
       }
      
     }
@@ -398,6 +398,9 @@ body {
       margin-left:400px;
     }
 
+    .scarf{
+    
+    }
     .scarf__picture {
       display: none;
     }
@@ -630,7 +633,7 @@ body {
       flex-wrap: wrap;
       justify-content: space-around;
       width: 100%;
-      height: 486px;
+      height: 230px;
 
       .avantages__articles {
         width: 160px;
@@ -694,7 +697,7 @@ body {
       }
 
       .icon__facebook {
-        margin-left: 35px;
+        margin-left: 1000px;
       }
       .icon__instagram {
         margin-left: 18px;
