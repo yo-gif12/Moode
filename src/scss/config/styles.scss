@@ -1,14 +1,27 @@
 body {
   font-family: "helvetica Neue";
-  .header1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+  .header {
+    width: 100%;
   }
-  .content{
+  .logo__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu__list {
     display: none;
   }
+.header__basket--icon{
+  display: none;
+}
+.header__login--icon{
+  display: none;
+}
+  .animation__desktop {
+    display: none;
+  }
+
   .scarf__picture {
     margin-top: 24px;
     height: 328px;
@@ -17,18 +30,18 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
-  .title {
+  .scarf__title {
     margin-top: 32px;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
     color: #191919;
-    .title__color {
+    .scarf__title--color {
       color: #d4b47b;
     }
   }
-  .subtitle {
+  .scarf__subtitle {
     text-align: center;
     text-transform: uppercase;
     color: #a1a1a1;
@@ -38,7 +51,7 @@ body {
     margin-left: 1rem;
     margin-right: 1rem;
   }
-  .subtitle__text {
+  .scarf__subtitle--text {
     text-align: center;
     font-size: 16px;
     font-weight: 300;
@@ -47,7 +60,7 @@ body {
     margin-left: 1rem;
     margin-right: 1rem;
   }
-  .btn-cta {
+  .scarf__cta--btn {
     width: 283px;
     background-color: black;
     color: white;
@@ -78,7 +91,7 @@ body {
       color: black;
       margin-top: 16px;
     }
-    .for__her__p {
+    .for__her--p--p {
       text-transform: uppercase;
       font-size: 16px;
       margin-top: 1rem;
@@ -124,7 +137,7 @@ body {
       color: black;
       margin-top: 16px;
     }
-    .for__him__p {
+    .for__him--p--p {
       text-transform: uppercase;
       font-size: 16px;
       margin-top: 1rem;
@@ -133,7 +146,7 @@ body {
       margin-left: 1rem;
       margin-right: 1rem;
     }
-    .btn {
+    .for__him__btn {
       font-size: 24px;
       text-transform: uppercase;
       font-weight: bold;
@@ -148,13 +161,13 @@ body {
     }
   }
 
-  .title__h3 {
+  .scarf__title {
     font-weight: bold;
     font-size: 18px;
     text-align: center;
     margin-top: 16px;
     text-transform: uppercase;
-    .title__color {
+    .scarf__title--color {
       color: #d4b47b;
     }
   }
@@ -167,7 +180,7 @@ body {
     margin-left: 1rem;
     margin-right: 1rem;
     .article__1 {
-      .article__1--perso {
+      .article__1--custom {
         text-transform: uppercase;
         color: #aeabab;
         font-weight: bold;
@@ -277,7 +290,6 @@ body {
       display: flex;
       flex-direction: row;
       justify-content: space-around;
-     
     }
   }
 
@@ -309,14 +321,45 @@ body {
   }
 }
 
-@media (min-width:1366px){
+@media (min-width: 1366px) {
   body {
     font-family: "helvetica Neue";
-    .header1 {
-      height: 116px;
-      
-      
+    .header__logo {
+      height: 80px;
+      margin: 0;
+      margin-left: 80px;
     }
+    .logo__container {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      
+      width: 15%;
+    }
+    .header{
+      display: flex;
+      align-items: center;
+    }
+    
+    ul.menu__list {
+      font-family: "helvetica Neue";
+      text-transform: uppercase;
+      display: flex;
+      font-weight: bold;
+      margin-left: 72px;
+      
+      .menu__list--item {
+        margin-right: 54px;
+      }
+     
+    }
+    .icon{
+      display: flex;
+      justify-content: space-between;
+      width: 80px;
+      margin-left:400px;
+    }
+
     .scarf__picture {
       display: none;
     }
@@ -324,19 +367,19 @@ body {
       height: 231px;
       margin: none;
     }
-    
-    section {
+
+    .animation__content {
       margin: none;
       display: flex;
     }
-    
+
     article {
       margin: none;
       width: auto;
       display: inline-block;
     }
-    
-    .content {
+
+    .animation__desktop {
       height: 514px;
       width: 693px;
       overflow: hidden;
@@ -345,29 +388,29 @@ body {
     .sliding {
       margin: none;
     }
-    
+
     @keyframes moveBottomToTop {
       to {
         transform: translateY(calc(-100% + 1410px));
       }
     }
-    
+
     .sliding.one {
       padding: none;
       animation: moveBottomToTop 21s linear infinite;
     }
-    
+
     @keyframes moveTopToBottom {
       to {
         transform: translateY(0);
       }
     }
-    
+
     .sliding.two {
       animation: moveTopToBottom 25s linear infinite;
       transform: translateY(calc(-100% + 1410px));
     }
-    
+
     @keyframes moveBottomToTop2 {
       to {
         transform: translateY(calc(-100% + 1410px));
@@ -466,7 +509,7 @@ body {
       text-align: center;
       margin-left: 1rem;
       margin-right: 1rem;
-  
+
       .for__him__picture {
         margin-top: 48px;
         width: 328px;
@@ -475,7 +518,7 @@ body {
         margin-left: auto;
         margin-right: auto;
       }
-  
+
       .for__him--p {
         text-align: center;
         text-transform: uppercase;
@@ -507,7 +550,7 @@ body {
         color: white;
       }
     }
-  
+
     .title__h3 {
       font-weight: bold;
       font-size: 18px;
@@ -542,7 +585,7 @@ body {
         }
       }
     }
-  
+
     .avantages {
       background-color: #191919;
       display: flex;
@@ -550,7 +593,7 @@ body {
       justify-content: space-around;
       width: 100%;
       height: 486px;
-  
+
       .avantages__articles {
         width: 160px;
         height: 138px;
@@ -596,7 +639,7 @@ body {
       background-color: #f7f2ec;
       padding-left: 16px;
       padding-right: 16px;
-  
+
       .newsletter__para {
         text-transform: uppercase;
         font-size: 13px;
@@ -611,7 +654,7 @@ body {
         border-bottom: 2px solid black;
         margin-top: 16px;
       }
-  
+
       .icon__facebook {
         margin-left: 35px;
       }
@@ -625,11 +668,11 @@ body {
         margin-left: 18px;
       }
     }
-  
+
     .bottom__nav {
       visibility: hidden;
     }
-  
+
     .footer-history {
       display: flex;
       justify-content: space-around;
@@ -640,7 +683,7 @@ body {
       border-bottom: 2px solid #c4c4c4;
       line-height: 139%;
     }
-  
+
     .footer--title1 {
       font-weight: bold;
     }
