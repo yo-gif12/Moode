@@ -1,12 +1,64 @@
 body{
   font-family: "helvetica Neue";
+  .header__up{
+    width: 100%;
+    height: 36px;
+    background-color: #F7F2EC;
+  .header__up--message{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    font-weight: bold;
+  }
+    .header__para{
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 16px;
+      font-weight: bold;
+      padding-top: 10px;
+    }
+  }
 
-.picture--logo{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+  .header__logo {
+    height: 80px;
+    margin: 0;
+    margin-left: 80px;
+  }
+  .logo__container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 15%;
+  }
+  .header{
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  ul.menu__list {
+    font-family: "helvetica Neue";
+    text-transform: uppercase;
+    display: flex;
+    font-weight: bold;
+    margin-left: 72px;
+    
+    
+    .menu__list--item {
+      margin-right: 54px;
+      a{
+        text-decoration: none;
+        color: black;
       }
-        
+    }
+   
+  }
+  .icon{
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    margin-left:400px;
+  }
       .foulard-perso{
           width: 160px;
           height: 263px;
@@ -120,22 +172,7 @@ body{
        
         }
       }
-      .header {
-        display: flex;
-        width: 100%;
-        height: 40px;
-        background: #EBE0D3;
-      } 
-      .p_header {
-        display: flex;
-        width: 100%;
-        justify-content: center;
-        margin-top: 12px;
-        text-decoration: underline;
-        font-size: 12px;
-        font-weight: bold;
-      }
-      
+
 }
 
 @media (min-width:1366px){
@@ -158,14 +195,12 @@ body{
  }
  .big{
    display: flex;
-  //  flex-direction: row;
-  //  justify-content: flex-start;
-  //  justify-content: space-between;
  }
  .r{
   display: flex;
   flex-direction: column;
   width: 50vw;
+  margin-right: 65px;
 }
 
 .o{
@@ -175,27 +210,44 @@ body{
 }
 
 img.foulard-perso{
-  height: 100%;
+  height: 60%;
   width: 40%;
+  border:none;
+  padding-top: 60px;
 }
 }
 
 @media (min-width:361px) {
-  .footer{
+  .bottom__nav{
     visibility: hidden;
     opacity: 0;
   }
 }
 
 @media (max-width:361px) {
-    .nav_elements{
-      display: none;
-    }
-    
-      .foulard-perso{
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
+  .nav_elements{
+    display: none;
+  }
+  .header {
+    width: 100%;
+  }
+      
+  .logo__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu__list {
+    display: none;
+  }
+  .icon{
+    display: none;
+  }
+  .foulard-perso{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 }

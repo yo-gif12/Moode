@@ -10,15 +10,15 @@ const btnPlant = document.querySelector(".motif--plant");// image poisson
 
 // la function pour modifer t'onb choix
 btnNoir.addEventListener("click", function() {
-ImagePreview.setAttribute("src", "/foulard_noir.8b7bf68d.png"); // juste a modifier le /foulard quand code copié
+ImagePreview.setAttribute("src", "/asset/images//foulardnoir.jpg"); // juste a modifier le /foulard quand code copié
 });
 
 btnBlanc.addEventListener("click", function() {
-ImagePreview.setAttribute("src", "/asset/images//foulard_blanc.jpg"); // juste a modifier le /foulard quand code copié
+ImagePreview.setAttribute("src", "/asset/images//foulardblanc.jpg"); // juste a modifier le /foulard quand code copié
   });
 
 btnMauve.addEventListener("click", function() {
-ImagePreview.setAttribute("src", "/asset/images/foulard_rose.jpg");
+ImagePreview.setAttribute("src", "/asset/images/foulardmauve.jpg");
 });
 
 btnBird.addEventListener("click", function() {
