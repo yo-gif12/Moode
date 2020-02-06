@@ -225,8 +225,11 @@ img.foulard-perso{
 }
 
 @media (max-width:361px) {
-  .nav_elements{
-    display: none;
+  .menu__list{
+    visibility: hidden;
+  }
+  .icon{
+    visibility: hidden;
   }
   .header {
     width: 100%;

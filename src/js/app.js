@@ -10,25 +10,25 @@ const btnPlant = document.querySelector(".motif--plant");// image poisson
 
 // la function pour modifer t'onb choix
 btnNoir.addEventListener("click", function() {
-ImagePreview.setAttribute("src", "/asset/images//foulardnoir.jpg"); // juste a modifier le /foulard quand code copié
+ImagePreview.setAttribute("src", "../images/foulardnoir.jpg"); // juste a modifier le /foulard quand code copié
 });
 
 btnBlanc.addEventListener("click", function() {
-ImagePreview.setAttribute("src", "/asset/images//foulardblanc.jpg"); // juste a modifier le /foulard quand code copié
+ImagePreview.setAttribute("src", "../images/foulardblanc.jpg"); // juste a modifier le /foulard quand code copié
   });
 
 btnMauve.addEventListener("click", function() {
-ImagePreview.setAttribute("src", "/asset/images/foulardmauve.jpg");
+ImagePreview.setAttribute("src", "../images/foulardmauve.jpg");
 });
 
 btnBird.addEventListener("click", function() {
-  ImagePreview.setAttribute("src", "/asset/images/foulardoiseau.jpg");
+  ImagePreview.setAttribute("src", "../images/foulardoiseau.jpg");
 });
 
 btnFish.addEventListener("click", function() {
-  ImagePreview.setAttribute("src", "/asset/images/foulardpoisson.jpg");
+  ImagePreview.setAttribute("src", "../images/foulardpoisson.jpg");
 });
 
 btnPlant.addEventListener("click", function() {
-  ImagePreview.setAttribute("src", "/asset/images/foulardplant.jpg");
+  ImagePreview.setAttribute("src", "../images/foulardplant.jpg");
 });
