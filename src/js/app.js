@@ -31,5 +31,5 @@ btnFish.addEventListener("click", function() {
 
 btnPlant.addEventListener("click", function() {
   ImagePreview.setAttribute("src", "../images/foulardplant.jpg");
-
+// hello
 });
