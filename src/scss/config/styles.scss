@@ -351,16 +351,18 @@ body {
     .header__up{
       width: 100%;
       height: 36px;
-      background-color: #F7F2EC;
-      .header__para{
-        text-align: center;
+       background-color: #F7F2EC;
+       .message{
         text-transform: uppercase;
-        font-size: 16px;
         font-weight: bold;
-        padding-top: 10px;
-      }
-    }
-
+        font-size: 16px;
+        text-align: center;
+   }
+  
+  }
+  .message__para{
+    padding-top: 10px;
+  }
     .header__logo {
       height: 80px;
       margin: 0;
@@ -375,6 +377,10 @@ body {
     .header{
       display: flex;
       align-items: center;
+      a{
+        text-decoration: none;
+        color: black;
+      }
     }
     
     ul.menu__list {
@@ -397,9 +403,14 @@ body {
       width: 80px;
       margin-left:400px;
     }
-
+.firstscroll{
+  display: flex;
+  justify-content: space-around;
+}
     .scarf{
-    
+    width: 493px;
+  margin-top: 120px;
+    ;
     }
     .scarf__picture {
       display: none;
@@ -473,7 +484,7 @@ body {
       }
     }
     .subtitle {
-      text-align: center;
+
       text-transform: uppercase;
       color: #a1a1a1;
       margin-top: 8px;
@@ -483,7 +494,7 @@ body {
       margin-right: 1rem;
     }
     .subtitle__text {
-      text-align: center;
+      
       font-size: 16px;
       font-weight: 300;
       margin-top: 16px;
@@ -742,3 +753,20 @@ body {
     }
   }
 }
+ // }
+      // .message > :first-child{
+      //   margin-left: -165px;
+      //   text-transform: uppercase;
+      //   font-weight: bold;
+      //   font-size: 16px;
+      //   white-space: nowrap;
+      //   margin-top: 10px;
+      //   color: black;
+      //   z-index: 5;
+      //   animation: sliding_message 15s infinite linear;
+  //     // }
+  //    @keyframes sliding_message {
+  //      0% {transform: translate3d(0,0,0);
+  //    }
+  //    100% {transform: translate3d(100%,0,0);
+  //    }
