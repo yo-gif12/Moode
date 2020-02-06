@@ -33,3 +33,108 @@ btnPlant.addEventListener("click", function() {
   ImagePreview.setAttribute("src", "../images/foulardplant.jpg");
 // hello
 });
+
+
+const btnTest =  document.getElementById("more1");
+const btnmore =  document.getElementById("more2");
+const btnTest3 =  document.getElementById("more3");
+const btnTest4 =  document.getElementById("more4");
+const btnTest5 =  document.getElementById("more5");
+
+
+
+btnTest.addEventListener("click", function() {  
+  const btnTest =  document.getElementById("more1"); 
+  
+  var changewindow = document.getElementById("window1").style.display 
+	var more = document.getElementById("more1")
+  
+	if(changewindow == "none")
+	{
+   	changewindow = document.getElementById("window1").style.display = "block" ;
+		more.innerHTML ="-";
+	} 
+
+	else if(changewindow == "block")
+	{
+		changewindow = document.getElementById("window1").style.display = "none" ;
+		more.innerHTML ="+";
+  }
+
+});
+
+btnmore.addEventListener("click", function() {  
+   
+  var changewindow = document.getElementById("window2").style.display 
+	var more = document.getElementById("more2")
+  
+	if(changewindow == "none")
+	{
+   	changewindow = document.getElementById("window2").style.display = "block" ;
+		more.innerHTML ="-";
+	} 
+
+	else if(changewindow == "block")
+	{
+		changewindow = document.getElementById("window2").style.display = "none" ;
+		more.innerHTML ="+";
+  }
+
+});
+
+btnTest3.addEventListener("click", function() {  
+   
+  var changewindow = document.getElementById("window4").style.display 
+	var more = document.getElementById("more3")
+  
+	if(changewindow == "none")
+	{
+   	changewindow = document.getElementById("window4").style.display = "block" ;
+		more.innerHTML ="-";
+	} 
+
+	else if(changewindow == "block")
+	{
+		changewindow = document.getElementById("window4").style.display = "none" ;
+		more.innerHTML ="+";
+  }
+
+});
+
+btnTest4.addEventListener("click", function() {  
+   
+  var changewindow = document.getElementById("window5").style.display 
+	var more = document.getElementById("more4")
+  
+	if(changewindow == "none")
+	{
+   	changewindow = document.getElementById("window5").style.display = "block" ;
+		more.innerHTML ="-";
+	} 
+
+	else if(changewindow == "block")
+	{
+		changewindow = document.getElementById("window5").style.display = "none" ;
+		more.innerHTML ="+";
+  }
+
+});
+
+btnTest5.addEventListener("click", function() {  
+   
+  var changewindow = document.getElementById("window6").style.display 
+	var more = document.getElementById("more5")
+  
+	if(changewindow == "none")
+	{
+   	changewindow = document.getElementById("window6").style.display = "block" ;
+		more.innerHTML ="-";
+	} 
+
+	else if(changewindow == "block")
+	{
+		changewindow = document.getElementById("window6").style.display = "none" ;
+		more.innerHTML ="+";
+  }
+
+});
