@@ -74,13 +74,18 @@ body {
     height: 51px;
     text-transform: uppercase;
     display: block;
-    margin-left: 10px;
+    margin-left: auto;
     margin-right: auto;
     margin-top: 16px;
     font-size: 14px;
     font-weight: bold;
-    cursor: pointer;
+    text-decoration: none;
     border-style: none;
+    font-weight: bold;
+  }
+  .scarf__cta--btn--a {
+    text-decoration: none;
+    color: white;
   }
   .for__her {
     text-align: center;
@@ -205,6 +210,7 @@ body {
     margin-top: 40px;
     margin-left: 1rem;
     margin-right: 1rem;
+    cursor: pointer;
 
     .article__1--custom {
       text-transform: uppercase;
@@ -435,6 +441,7 @@ body {
       width: 693px;
       overflow: hidden;
       margin: none;
+      transform-origin: top left;
     }
     .sliding {
       margin: none;
@@ -484,9 +491,16 @@ body {
       }
     }
 
-    .scarf__cta--btn--a{
+    .scarf__cta--btn--a {
       text-decoration: none;
       color: white;
+    }
+    button:hover {
+      background-color: #d4b47b;
+      border-style: none;
+    }
+    button:active {
+      color: #191919;
     }
     .scarf__subtitle {
       text-transform: uppercase;
@@ -751,6 +765,9 @@ body {
 
     .bottom__nav {
       visibility: hidden;
+    }
+    .footer__icon {
+      cursor: pointer;
     }
 
     .footer-history {

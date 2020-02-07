@@ -1,47 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="/scss/vendors/reset.css" />
-    <link rel="stylesheet" href="/scss/config/styles.scss" />
 
-    <link rel="icon" type="image/svg" href="/asset/images/favicon.png" />
-    <script src="js/index.js" defer></script>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="/scss/vendors/reset.css" />
+  <link rel="stylesheet" href="/scss/config/styles.scss" />
+
+  <link rel="icon" type="image/svg" href="/asset/images/favicon.png" />
+  <script src="js/index.js" defer></script>
 
 
-    <title>Moode</title>
-  </head>
-  <body>
-    <header class="header1">
-      <div class="header__up">
-        <div class="message"><div class="message__para"></div></div>
-      </div>
+  <title>Moode</title>
+</head>
 
-      <div class="header">
-      <div class="logo__container">
-      <a href="/index.html"><img class="header__logo" src="/asset/images/logomoode.svg"/></a>
+<body>
+  <header class="header1">
+    <div class="header__up">
+
     </div>
-    <section class="header__menu">
-  <ul class="menu__list">
-  <li class="menu__list--item"><a href="/screens/perso.html">Personnalisation</a></li>
-  <li class="menu__list--item"><a href="/screens/perso.html">Articles</a></li>
-  <li class="menu__list--item"><a href="/screens/history.html">Notre Histoire</a></li>
-  </ul>
-    </section>
-    <section class="icon">
-    <svg  class="header__basket--icon" width="18" height="21" viewBox="0 0 18 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M4 7V5C4 3.67392 4.52678 2.40215 5.46447 1.46447C6.40215 0.526784 7.67392 0 9 0C10.3261 0 11.5979 0.526784 12.5355 1.46447C13.4732 2.40215 14 3.67392 14 5V7H17C17.2652 7 17.5196 7.10536 17.7071 7.29289C17.8946 7.48043 18 7.73478 18 8V20C18 20.2652 17.8946 20.5196 17.7071 20.7071C17.5196 20.8946 17.2652 21 17 21H1C0.734784 21 0.48043 20.8946 0.292893 20.7071C0.105357 20.5196 0 20.2652 0 20V8C0 7.73478 0.105357 7.48043 0.292893 7.29289C0.48043 7.10536 0.734784 7 1 7H4ZM4 9H2V19H16V9H14V11H12V9H6V11H4V9ZM6 7H12V5C12 4.20435 11.6839 3.44129 11.1213 2.87868C10.5587 2.31607 9.79565 2 9 2C8.20435 2 7.44129 2.31607 6.87868 2.87868C6.31607 3.44129 6 4.20435 6 5V7Z" fill="#191919"/>
-      </svg>
-      
-    <svg  class="header__login--icon" width="16" height="21" viewBox="0 0 16 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0 21C0 18.8783 0.842855 16.8434 2.34315 15.3431C3.84344 13.8429 5.87827 13 8 13C10.1217 13 12.1566 13.8429 13.6569 15.3431C15.1571 16.8434 16 18.8783 16 21H14C14 19.4087 13.3679 17.8826 12.2426 16.7574C11.1174 15.6321 9.5913 15 8 15C6.4087 15 4.88258 15.6321 3.75736 16.7574C2.63214 17.8826 2 19.4087 2 21H0ZM8 12C4.685 12 2 9.315 2 6C2 2.685 4.685 0 8 0C11.315 0 14 2.685 14 6C14 9.315 11.315 12 8 12ZM8 10C10.21 10 12 8.21 12 6C12 3.79 10.21 2 8 2C5.79 2 4 3.79 4 6C4 8.21 5.79 10 8 10Z" fill="#191919"/>
-      </svg>
-    </section>
-  </div>
-    </header>
-    <div class="firstscroll">
+    </div>
+
+    <div class="header">
+      <div class="logo__container">
+        <a href="/index.html"><img class="header__logo" src="/asset/images/logomoode.svg" /></a>
+      </div>
+      <section class="header__menu">
+        <ul class="menu__list">
+          <li class="menu__list--item"><a href="/screens/perso.html">Personnalisation</a></li>
+          <li class="menu__list--item"><a href="/screens/perso.html">Articles</a></li>
+          <li class="menu__list--item"><a href="/screens/history.html">Notre Histoire</a></li>
+        </ul>
+      </section>
+      <section class="icon">
+        <svg class="header__basket--icon" width="18" height="21" viewBox="0 0 18 21" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M4 7V5C4 3.67392 4.52678 2.40215 5.46447 1.46447C6.40215 0.526784 7.67392 0 9 0C10.3261 0 11.5979 0.526784 12.5355 1.46447C13.4732 2.40215 14 3.67392 14 5V7H17C17.2652 7 17.5196 7.10536 17.7071 7.29289C17.8946 7.48043 18 7.73478 18 8V20C18 20.2652 17.8946 20.5196 17.7071 20.7071C17.5196 20.8946 17.2652 21 17 21H1C0.734784 21 0.48043 20.8946 0.292893 20.7071C0.105357 20.5196 0 20.2652 0 20V8C0 7.73478 0.105357 7.48043 0.292893 7.29289C0.48043 7.10536 0.734784 7 1 7H4ZM4 9H2V19H16V9H14V11H12V9H6V11H4V9ZM6 7H12V5C12 4.20435 11.6839 3.44129 11.1213 2.87868C10.5587 2.31607 9.79565 2 9 2C8.20435 2 7.44129 2.31607 6.87868 2.87868C6.31607 3.44129 6 4.20435 6 5V7Z"
+            fill="#191919" />
+        </svg>
+
+        <svg class="header__login--icon" width="16" height="21" viewBox="0 0 16 21" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M0 21C0 18.8783 0.842855 16.8434 2.34315 15.3431C3.84344 13.8429 5.87827 13 8 13C10.1217 13 12.1566 13.8429 13.6569 15.3431C15.1571 16.8434 16 18.8783 16 21H14C14 19.4087 13.3679 17.8826 12.2426 16.7574C11.1174 15.6321 9.5913 15 8 15C6.4087 15 4.88258 15.6321 3.75736 16.7574C2.63214 17.8826 2 19.4087 2 21H0ZM8 12C4.685 12 2 9.315 2 6C2 2.685 4.685 0 8 0C11.315 0 14 2.685 14 6C14 9.315 11.315 12 8 12ZM8 10C10.21 10 12 8.21 12 6C12 3.79 10.21 2 8 2C5.79 2 4 3.79 4 6C4 8.21 5.79 10 8 10Z"
+            fill="#191919" />
+        </svg>
+      </section>
+    </div>
+  </header>
+  <div class="firstscroll">
     <div class="animation__desktop">
 
       <!-- class a refaire ............ -->
@@ -49,82 +58,81 @@
       <!-- class a refaire ............ -->
       <!-- class a refaire ............ -->
       <section class="animation__content">
-          <article class="sliding one">
-              <img src="/asset/images/1.png" alt="scarf-pictures" class="scarf--img">
-              <img src="/asset/images/2.png" alt="scarf-pictures" class="scarf--img">
-              <img src="/asset/images/3.png" alt="scarf-pictures" class="scarf--img">
-              <img src="/asset/images/4.png" alt="scarf-pictures" class="scarf--img">
-              <img src="/asset/images/5.png" alt="scarf-pictures" class="scarf--img">
-              <img src="/asset/images/6.png" alt="scarf-pictures" class="scarf--img">
-              <img src="/asset/images/1.png" alt="scarf-pictures" class="scarf--img">
-              <img src="/asset/images/2.png" alt="scarf-pictures" class="scarf--img">
-                <img src="/asset/images/3.png" alt="scarf-pictures" class="scarf--img">
-                <img src="/asset/images/4.png" alt="scarf-pictures" class="scarf--img">
-                <img src="/asset/images/5.png" alt="scarf-pictures" class="scarf--img">
-                <img src="/asset/images/6.png" alt="scarf-pictures" class="scarf--img">
-              
-          </article>
+        <article class="sliding one">
+          <img src="/asset/images/1.png" alt="scarf-pictures" class="scarf--img">
+          <img src="/asset/images/2.png" alt="scarf-pictures" class="scarf--img">
+          <img src="/asset/images/3.png" alt="scarf-pictures" class="scarf--img">
+          <img src="/asset/images/4.png" alt="scarf-pictures" class="scarf--img">
+          <img src="/asset/images/5.png" alt="scarf-pictures" class="scarf--img">
+          <img src="/asset/images/6.png" alt="scarf-pictures" class="scarf--img">
+          <img src="/asset/images/1.png" alt="scarf-pictures" class="scarf--img">
+          <img src="/asset/images/2.png" alt="scarf-pictures" class="scarf--img">
+          <img src="/asset/images/3.png" alt="scarf-pictures" class="scarf--img">
+          <img src="/asset/images/4.png" alt="scarf-pictures" class="scarf--img">
+          <img src="/asset/images/5.png" alt="scarf-pictures" class="scarf--img">
+          <img src="/asset/images/6.png" alt="scarf-pictures" class="scarf--img">
 
-          <article class="sliding two">
-            <img src="/asset/images/7.png" alt="scarf-pictures" class="scarf--img">
-            <img src="/asset/images/8.png" alt="scarf-pictures" class="scarf--img">
-            <img src="/asset/images/9.png" alt="scarf-pictures" class="scarf--img">
-            <img src="/asset/images/10.png" alt="scarf-pictures" class="scarf--img">
-            <img src="/asset/images/11.png" alt="scarf-pictures" class="scarf--img">
-            <img src="/asset/images/12.png " alt="scarf-pictures" class="scarf--img">
-              <img src="/asset/images/7.png" alt="scarf-pictures" class="scarf--img">
-              <img src="/asset/images/8.png" alt="scarf-pictures" class="scarf--img">
-              <img src="/asset/images/9.png" alt="scarf-pictures" class="scarf--img">
-              <img src="/asset/images/10.png" alt="scarf-pictures" class="scarf--img">
-              <img src="/asset/images/11.png" alt="scarf-pictures" class="scarf--img">
-              <img src="/asset/images/12.png " alt="scarf-pictures" class="scarf--img">
-          </article>
-          <article class="sliding three">
-              <img src="/asset/images/13.png" alt="scarf-pictures" class="scarf--img">
-              <img src="/asset/images/14.png" alt="scarf-pictures" class="scarf--img">
-              <img src="/asset/images/15.png" alt="scarf-pictures" class="scarf--img">
-              <img src="/asset/images/16.png" alt="scarf-pictures" class="scarf--img">
-              <img src="/asset/images/17.png" alt="scarf-pictures" class="scarf--img">
-              <img src="/asset/images/18.png" alt="scarf-pictures" class="scarf--img">
-              <img src="/asset/images/13.png" alt="scarf-pictures" class="scarf--img">
-              <img src="/asset/images/14.png" alt="scarf-pictures" class="scarf--img">
-              <img src="/asset/images/15.png" alt="scarf-pictures" class="scarf--img">
-              <img src="/asset/images/16.png" alt="scarf-pictures" class="scarf--img">
-              <img src="/asset/images/17.png" alt="scarf-pictures" class="scarf--img">
-              <img src="/asset/images/18.png" alt="scarf-pictures" class="scarf--img">
-          </article>
-          </secion>
+        </article>
+
+        <article class="sliding two">
+          <img src="/asset/images/7.png" alt="scarf-pictures" class="scarf--img">
+          <img src="/asset/images/8.png" alt="scarf-pictures" class="scarf--img">
+          <img src="/asset/images/9.png" alt="scarf-pictures" class="scarf--img">
+          <img src="/asset/images/10.png" alt="scarf-pictures" class="scarf--img">
+          <img src="/asset/images/11.png" alt="scarf-pictures" class="scarf--img">
+          <img src="/asset/images/12.png " alt="scarf-pictures" class="scarf--img">
+          <img src="/asset/images/7.png" alt="scarf-pictures" class="scarf--img">
+          <img src="/asset/images/8.png" alt="scarf-pictures" class="scarf--img">
+          <img src="/asset/images/9.png" alt="scarf-pictures" class="scarf--img">
+          <img src="/asset/images/10.png" alt="scarf-pictures" class="scarf--img">
+          <img src="/asset/images/11.png" alt="scarf-pictures" class="scarf--img">
+          <img src="/asset/images/12.png " alt="scarf-pictures" class="scarf--img">
+        </article>
+        <article class="sliding three">
+          <img src="/asset/images/13.png" alt="scarf-pictures" class="scarf--img">
+          <img src="/asset/images/14.png" alt="scarf-pictures" class="scarf--img">
+          <img src="/asset/images/15.png" alt="scarf-pictures" class="scarf--img">
+          <img src="/asset/images/16.png" alt="scarf-pictures" class="scarf--img">
+          <img src="/asset/images/17.png" alt="scarf-pictures" class="scarf--img">
+          <img src="/asset/images/18.png" alt="scarf-pictures" class="scarf--img">
+          <img src="/asset/images/13.png" alt="scarf-pictures" class="scarf--img">
+          <img src="/asset/images/14.png" alt="scarf-pictures" class="scarf--img">
+          <img src="/asset/images/15.png" alt="scarf-pictures" class="scarf--img">
+          <img src="/asset/images/16.png" alt="scarf-pictures" class="scarf--img">
+          <img src="/asset/images/17.png" alt="scarf-pictures" class="scarf--img">
+          <img src="/asset/images/18.png" alt="scarf-pictures" class="scarf--img">
+        </article>
+        </secion>
+    </div>
+    <!-- class a refaire ............ -->
+    <!-- class a refaire ............ -->
+    <!-- class a refaire ............ -->
+    <!-- class a refaire ............ -->
+
+
+
+
+
+    <div class="scarf">
+      <img class="scarf__picture" src="/asset/images/foulard.png" alt="scarf" />
+      <h1 class="scarf__title">
+        Nos carrés <em class="scarf__title--color">À votre image</em>
+      </h1>
+      <h2 class="scarf__subtitle">Your style, your art, your moode</h2>
+      <p class="scarf__subtitle--text">
+        MOODE présente sa collection de carrés personnalisables pour elle et pour
+        lui.Caractérisés par des designs uniques. Depuis la graine jusqu'à sa fabrication, nos produits sont 100%
+        français fabriqués à la main par des artisans ayant un savoir intemporel. Nos produits 100% naturels à base de
+        soie, chanvre et / ou
+        lin cultivés en France.
+      </p>
+      </a><button class="scarf__cta--btn"><a class="scarf__cta--btn--a" href="/screens/perso.html">Personnalisez votre
+          carré</a></button>
+    </div>
   </div>
-  <!-- class a refaire ............ -->
-      <!-- class a refaire ............ -->
-      <!-- class a refaire ............ -->
-      <!-- class a refaire ............ -->
-
-
-
-
-      
-<div class="scarf">
-    <img class="scarf__picture" src="/asset/images/foulard.png" alt="scarf" />
-    <h1 class="scarf__title">
-      Nos carrés <em class="scarf__title--color">À votre image</em>
-    </h1>
-    <h2 class="scarf__subtitle">Your style, your art, your moode</h2>
-    <p class="scarf__subtitle--text">
-      MOODE présente sa collection de carrés personnalisables pour elle et pour
-      lui.Caractérisés par des designs uniques. Depuis la graine jusqu'à sa fabrication, nos produits sont 100% français fabriqués à la main par des artisans ayant un savoir intemporel. Nos produits 100% naturels à base de soie, chanvre et / ou
-      lin cultivés en France.
-    </p>
-    </a><button class="scarf__cta--btn"><a  class="scarf__cta--btn--a" href="/screens/perso.html">Personnalisez votre carré</a></button>
-  </div>
-</div>
-<div class="for__her__him">
+  <div class="for__her__him">
     <div class="for__her">
-      <img
-        src="/asset/images/Photoelle.jpg"
-        alt="pourelle"
-        class="for__her__picture"
-      />
+      <img src="/asset/images/Photoelle.jpg" alt="pourelle" class="for__her__picture" />
       <p class="for__her--p">Personnalisez votre style</p>
       <p class="for__her--p--p">Laissez parler votre inspiration</p>
       <button class="for__her__btn">pour elle</button>
@@ -137,11 +145,11 @@
       <button class="for__him__btn">pour lui</button>
     </div>
   </div>
-    <h2 class="scarf__title">Les nouveaux <em class="scarf__title--color">carrés</em></h2>
-    <div class="articles__pictures">
-    <div class="girl__carf"><img src="/asset/images/nouveaucarre.jpg" alt="gilr"></div> 
+  <h2 class="scarf__title">Les nouveaux <em class="scarf__title--color">carrés</em></h2>
+  <div class="articles__pictures">
+    <div class="girl__carf"><img src="/asset/images/nouveaucarre.jpg" alt="gilr"></div>
     <div class="article">
-      
+
       <div class="article__1">
         <img src="/asset/images/scarf_g.png" class="article__1__pictures" alt="articles" />
         <p class="article__1--custom">personnalisable</p>
@@ -149,13 +157,13 @@
         <p class="article__1--price">250€</p>
       </div>
       <div class="article__1">
-        <img src="/asset/images/scarf_g.png" class="article__1__pictures"  alt="articles" />
+        <img src="/asset/images/scarf_g.png" class="article__1__pictures" alt="articles" />
         <p class="article__1--custom">personnalisable</p>
         <p class="article__1--scarf">Foulard Moonlight</p>
         <p class="article__1--price">250€</p>
       </div>
       <div class="article__1">
-        <img src="/asset/images/scarf_g.png"  class="article__1__pictures alt="articles" />
+        <img src="/asset/images/scarf_g.png" class="article__1__pictures alt=" articles" />
         <p class="article__1--custom">personnalisable</p>
         <p class="article__1--scarf">Foulard Moonlight</p>
         <p class="article__1--price">250€</p>
@@ -168,195 +176,123 @@
       </div>
     </div>
   </div>
- 
-    <div class="avantages">
-      <h3 class="avantages__title">AVANTAGES MOODE</h3>
 
-      <div class="avantages__articles">
-        <img
-          src="/asset/images/carte.svg"
-          alt="q"
-          class="avantages__articles--images"
-        />
-        <p class="eco__made">Made in France</p>
-        <p class="eco__made--in">Production et fabrication 100% française</p>
-      </div>
-      <div class="avantages__articles">
-        <img
-          src="/asset/images/Artisan.svg"
-          alt="q"
-          class="avantages__articles--images"
-        />
-        <p class="eco__made">Savoir-faire</p>
-        <p class="eco__made--in">Savoir-faire artisanal</p>
-      </div>
-      <div class="avantages__articles">
-        <img
-          src="/asset/images/Recyclage.svg"
-          alt="q"
-          class="avantages__articles--images"
-        />
-        <p class="eco__made">impact</p>
-        <p class="eco__made--in">
-          Matériaux recyclables et respectueux de l’environnement
-        </p>
-      </div>
-      <div class="avantages__articles">
-        <img
-          src="/asset/images/Vector.svg"
-          alt="q"
-          class="avantages__articles--images"
-        />
-        <p class="eco__made">L’art d’offrir</p>
-        <p class="eco__made--in">
-          Votre commande sublimée dans un coffret Moode iconique
-        </p>
-      </div>
-      <div class="avantages__articles">
-        <img
-          src="/asset/images/l.svg"
-          alt="q"
-          class="avantages__articles--images"
-        />
-        <p class="eco__made">Livraison et retours</p>
-        <p class="eco__made--in">
-          Livraison standard et retours offerts pour toute commande
-        </p>
-      </div>
+  <div class="avantages">
+    <h3 class="avantages__title">AVANTAGES MOODE</h3>
+
+    <div class="avantages__articles">
+      <img src="/asset/images/carte.svg" alt="q" class="avantages__articles--images" />
+      <p class="eco__made">Made in France</p>
+      <p class="eco__made--in">Production et fabrication 100% française</p>
     </div>
-      <div class="newsletter">
-        <p class="newsletter__para">Rejoignez notre newsletter</p>
-        
-        <input
-          type="email"
-          class="newsletter__email"
-          pattern=".+@globex.com"
-          size="35"
-          required
-          placeholder="Saisissez votre adresse e-mail"
-        />
-        
-        <svg
-          class="icon__facebook"
-          width="8"
-          height="14"
-          viewBox="0 0 8 14"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M7.50016 1.16675H5.75016C4.97661 1.16675 4.23475 1.47404 3.68777 2.02102C3.14079 2.568 2.8335 3.30987 2.8335 4.08341V5.83342H1.0835V8.16675H2.8335V12.8334H5.16683V8.16675H6.91683L7.50016 5.83342H5.16683V4.08341C5.16683 3.92871 5.22829 3.78033 5.33768 3.67094C5.44708 3.56154 5.59545 3.50008 5.75016 3.50008H7.50016V1.16675Z"
-            stroke="#191919"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-        </svg>
-        <svg
-          class="icon__instagram"
-          width="14"
-          height="14"
-          viewBox="0 0 14 14"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M9.9165 1.16675H4.08317C2.47234 1.16675 1.1665 2.47258 1.1665 4.08342V9.91675C1.1665 11.5276 2.47234 12.8334 4.08317 12.8334H9.9165C11.5273 12.8334 12.8332 11.5276 12.8332 9.91675V4.08342C12.8332 2.47258 11.5273 1.16675 9.9165 1.16675Z"
-            stroke="#191919"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-          <path
-            d="M9.33332 6.63243C9.40531 7.11791 9.32239 7.61372 9.09635 8.04936C8.87031 8.48499 8.51266 8.83826 8.07427 9.05891C7.63589 9.27956 7.13909 9.35636 6.65453 9.27839C6.16998 9.20042 5.72235 8.97165 5.37531 8.62461C5.02828 8.27757 4.7995 7.82994 4.72153 7.34539C4.64356 6.86084 4.72036 6.36404 4.94102 5.92565C5.16167 5.48726 5.51493 5.12961 5.95057 4.90357C6.3862 4.67753 6.88201 4.59461 7.36749 4.6666C7.8627 4.74003 8.32115 4.97079 8.67515 5.32478C9.02914 5.67877 9.25989 6.13723 9.33332 6.63243Z"
-            stroke="#191919"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-          <path
-            d="M10.2085 3.79175H10.2143"
-            stroke="#191919"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-        </svg>
-        <svg
-          class="icon__twitter"
-          width="14"
-          height="12"
-          viewBox="0 0 14 12"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M13.4168 0.750006C12.8582 1.14403 12.2397 1.4454 11.5852 1.64251C11.2338 1.23855 10.7669 0.952243 10.2476 0.822297C9.72826 0.69235 9.18153 0.725037 8.68138 0.915938C8.18122 1.10684 7.75175 1.44674 7.45107 1.88967C7.15038 2.33261 6.99299 2.8572 7.00016 3.39251V3.97584C5.97503 4.00242 4.95924 3.77506 4.04325 3.31402C3.12726 2.85297 2.33951 2.17254 1.75016 1.33334C1.75016 1.33334 -0.58317 6.58334 4.66683 8.91667C3.46547 9.73215 2.03434 10.141 0.583496 10.0833C5.8335 13 12.2502 10.0833 12.2502 3.37501C12.2496 3.21252 12.234 3.05044 12.2035 2.89084C12.7988 2.30371 13.219 1.56242 13.4168 0.750006V0.750006Z"
-            stroke="#191919"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-        </svg>
-        <svg
-          class="icon__youtube"
-          width="14"
-          height="14"
-          viewBox="0 0 14 14"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M13.1483 3.74492C13.0791 3.46807 12.9379 3.21442 12.7392 3.00957C12.5405 2.80473 12.2913 2.65594 12.0167 2.57825C11.0133 2.33325 7.00001 2.33325 7.00001 2.33325C7.00001 2.33325 2.98668 2.33325 1.98334 2.60159C1.70874 2.67928 1.45949 2.82806 1.26079 3.03291C1.06209 3.23775 0.920968 3.49141 0.851675 3.76825C0.66805 4.78649 0.578229 5.81943 0.583341 6.85408C0.576796 7.89653 0.666622 8.93734 0.851675 9.96325C0.928068 10.2315 1.07235 10.4755 1.27059 10.6717C1.46883 10.8679 1.71432 11.0096 1.98334 11.0833C2.98668 11.3516 7.00001 11.3516 7.00001 11.3516C7.00001 11.3516 11.0133 11.3516 12.0167 11.0833C12.2913 11.0056 12.5405 10.8568 12.7392 10.6519C12.9379 10.4471 13.0791 10.1934 13.1483 9.91658C13.3306 8.90601 13.4204 7.88095 13.4167 6.85408C13.4232 5.81164 13.3334 4.77083 13.1483 3.74492V3.74492Z"
-            stroke="#191919"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-          <path
-            d="M5.6875 8.76178L9.04167 6.85428L5.6875 4.94678V8.76178Z"
-            stroke="#191919"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-        </svg>
-      </div>
-      
-    
-    <nav class="bottom__nav">
-      <ul class="bottom__nav--list">
+    <div class="avantages__articles">
+      <img src="/asset/images/Artisan.svg" alt="q" class="avantages__articles--images" />
+      <p class="eco__made">Savoir-faire</p>
+      <p class="eco__made--in">Savoir-faire artisanal</p>
+    </div>
+    <div class="avantages__articles">
+      <img src="/asset/images/Recyclage.svg" alt="q" class="avantages__articles--images" />
+      <p class="eco__made">impact</p>
+      <p class="eco__made--in">
+        Matériaux recyclables et respectueux de l’environnement
+      </p>
+    </div>
+    <div class="avantages__articles">
+      <img src="/asset/images/Vector.svg" alt="q" class="avantages__articles--images" />
+      <p class="eco__made">L’art d’offrir</p>
+      <p class="eco__made--in">
+        Votre commande sublimée dans un coffret Moode iconique
+      </p>
+    </div>
+    <div class="avantages__articles">
+      <img src="/asset/images/l.svg" alt="q" class="avantages__articles--images" />
+      <p class="eco__made">Livraison et retours</p>
+      <p class="eco__made--in">
+        Livraison standard et retours offerts pour toute commande
+      </p>
+    </div>
+  </div>
+  <div class="newsletter">
+    <p class="newsletter__para">Rejoignez notre newsletter</p>
 
-      <li><a href="index.html"><img class="footer__icon"src="/asset/images/home.svg" alt="Acceuil"></a></li>
-      <li><a href="/screens/perso.html"><img class="footer__icon" src="/asset/images/des.svg" alt="Design"></a></li>
-      <li><a href="/screens/history.html"><img class="footer__icon" src="/asset/images/article.svg" alt="Articles"></a></li>
+    <input type="email" class="newsletter__email" pattern=".+@globex.com" size="35" required
+      placeholder="Saisissez votre adresse e-mail" />
+
+    <svg class="icon__facebook" width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M7.50016 1.16675H5.75016C4.97661 1.16675 4.23475 1.47404 3.68777 2.02102C3.14079 2.568 2.8335 3.30987 2.8335 4.08341V5.83342H1.0835V8.16675H2.8335V12.8334H5.16683V8.16675H6.91683L7.50016 5.83342H5.16683V4.08341C5.16683 3.92871 5.22829 3.78033 5.33768 3.67094C5.44708 3.56154 5.59545 3.50008 5.75016 3.50008H7.50016V1.16675Z"
+        stroke="#191919" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+    <svg class="icon__instagram" width="14" height="14" viewBox="0 0 14 14" fill="none"
+      xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M9.9165 1.16675H4.08317C2.47234 1.16675 1.1665 2.47258 1.1665 4.08342V9.91675C1.1665 11.5276 2.47234 12.8334 4.08317 12.8334H9.9165C11.5273 12.8334 12.8332 11.5276 12.8332 9.91675V4.08342C12.8332 2.47258 11.5273 1.16675 9.9165 1.16675Z"
+        stroke="#191919" stroke-linecap="round" stroke-linejoin="round" />
+      <path
+        d="M9.33332 6.63243C9.40531 7.11791 9.32239 7.61372 9.09635 8.04936C8.87031 8.48499 8.51266 8.83826 8.07427 9.05891C7.63589 9.27956 7.13909 9.35636 6.65453 9.27839C6.16998 9.20042 5.72235 8.97165 5.37531 8.62461C5.02828 8.27757 4.7995 7.82994 4.72153 7.34539C4.64356 6.86084 4.72036 6.36404 4.94102 5.92565C5.16167 5.48726 5.51493 5.12961 5.95057 4.90357C6.3862 4.67753 6.88201 4.59461 7.36749 4.6666C7.8627 4.74003 8.32115 4.97079 8.67515 5.32478C9.02914 5.67877 9.25989 6.13723 9.33332 6.63243Z"
+        stroke="#191919" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M10.2085 3.79175H10.2143" stroke="#191919" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+    <svg class="icon__twitter" width="14" height="12" viewBox="0 0 14 12" fill="none"
+      xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M13.4168 0.750006C12.8582 1.14403 12.2397 1.4454 11.5852 1.64251C11.2338 1.23855 10.7669 0.952243 10.2476 0.822297C9.72826 0.69235 9.18153 0.725037 8.68138 0.915938C8.18122 1.10684 7.75175 1.44674 7.45107 1.88967C7.15038 2.33261 6.99299 2.8572 7.00016 3.39251V3.97584C5.97503 4.00242 4.95924 3.77506 4.04325 3.31402C3.12726 2.85297 2.33951 2.17254 1.75016 1.33334C1.75016 1.33334 -0.58317 6.58334 4.66683 8.91667C3.46547 9.73215 2.03434 10.141 0.583496 10.0833C5.8335 13 12.2502 10.0833 12.2502 3.37501C12.2496 3.21252 12.234 3.05044 12.2035 2.89084C12.7988 2.30371 13.219 1.56242 13.4168 0.750006V0.750006Z"
+        stroke="#191919" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+    <svg class="icon__youtube" width="14" height="14" viewBox="0 0 14 14" fill="none"
+      xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M13.1483 3.74492C13.0791 3.46807 12.9379 3.21442 12.7392 3.00957C12.5405 2.80473 12.2913 2.65594 12.0167 2.57825C11.0133 2.33325 7.00001 2.33325 7.00001 2.33325C7.00001 2.33325 2.98668 2.33325 1.98334 2.60159C1.70874 2.67928 1.45949 2.82806 1.26079 3.03291C1.06209 3.23775 0.920968 3.49141 0.851675 3.76825C0.66805 4.78649 0.578229 5.81943 0.583341 6.85408C0.576796 7.89653 0.666622 8.93734 0.851675 9.96325C0.928068 10.2315 1.07235 10.4755 1.27059 10.6717C1.46883 10.8679 1.71432 11.0096 1.98334 11.0833C2.98668 11.3516 7.00001 11.3516 7.00001 11.3516C7.00001 11.3516 11.0133 11.3516 12.0167 11.0833C12.2913 11.0056 12.5405 10.8568 12.7392 10.6519C12.9379 10.4471 13.0791 10.1934 13.1483 9.91658C13.3306 8.90601 13.4204 7.88095 13.4167 6.85408C13.4232 5.81164 13.3334 4.77083 13.1483 3.74492V3.74492Z"
+        stroke="#191919" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M5.6875 8.76178L9.04167 6.85428L5.6875 4.94678V8.76178Z" stroke="#191919" stroke-linecap="round"
+        stroke-linejoin="round" />
+    </svg>
+  </div>
+
+
+  <nav class="bottom__nav">
+    <ul class="bottom__nav--list">
+
+      <li><a href="index.html"><img class="footer__icon" src="/asset/images/home.svg" alt="Acceuil"></a></li>
+      <li><a href="/screens/perso.html"><img class="footer__icon" src="/asset/images/des.svg"
+            alt="Personnalisation"></a></li>
+      <li><a href="/screens/history.html"><img class="footer__icon" src="/asset/images/article.svg" alt="Articles"></a>
+      </li>
       <li><a><img class="footer__icon" src="/asset/images/account.svg" alt="Compte"></a></li>
     </ul>
-    </nav> 
-    <div class="footer-history"> 
-      <div class="footer-history1"> 
-        
-          <p class="footer--title1">SERVICE CLIENT</p>
-          <p>FAQ</p>
-          <p>Livraison</p>
-          <p>Retour & <br> remboursement</p>
-          <p>Paiement</p>
-          <p>Contact</p>
-       
-      </div>
-      <div class="footer-history2"> 
-        
-          <p class="footer--title2">À PROPOS</p>
-          <p>Profil de <br> l'entreprise</p>
-          <p>Carrières</p>
-          <p>Presse</p>
-          <p>Relation avec <br> les investisseurs</p>
-        
-      </div>
-      <div class="footer-history3"> 
-    
-          <p class="footer--title3">JURIDIQUE</p>
+  </nav>
+  <div class="footer-history">
+    <div class="footer-history1">
 
-          <p>Mentions légales</p>
-          <p>Politique de <br> confidentialité</p>
-          <p>Conditions <br> générales de ventes</p> 
-  
+      <p class="footer--title1">SERVICE CLIENT</p>
+      <p>FAQ</p>
+      <p>Livraison</p>
+      <p>Retour & remboursement</p>
+      <p>Paiement</p>
+      <p>Contact</p>
+
+    </div>
+    <div class="footer-history2">
+
+      <p class="footer--title2">À PROPOS</p>
+      <p>Profil de l'entreprise</p>
+      <p>Carrières</p>
+      <p>Presse</p>
+      <p>Relation avec les investisseurs</p>
+
+    </div>
+    <div class="footer-history3">
+
+      <p class="footer--title3">JURIDIQUE</p>
+
+      <p>Mentions légales</p>
+      <p>Politique de confidentialité</p>
+      <p>Conditions générales de ventes</p>
+
+    </div>
   </div>
-</div>
   <img src="/asset/images/logomoode.svg" class="logo">
 
-  </body>
+</body>
+
 </html>
